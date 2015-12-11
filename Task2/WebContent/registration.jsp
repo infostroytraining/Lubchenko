@@ -1,6 +1,8 @@
 <%@page import="botdetect.web.Captcha"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 	
 <!DOCTYPE html>
 <html>
@@ -11,31 +13,32 @@
 	<div id="heading">
 		<h1>Fill the form, please</h1>
 	</div>
-		
-	<form id="registration_form" action="controller" method="post" 
-	>
+		<p>${message}</p>
+	<form id="registration_form" action="controller" method="post">
 		<input type="hidden" name="action" value="registr" />
 		
-		<input type="email" name="email" placeholder="email" required="required" /><br>
-		<input type="text" name="name" placeholder="First name" required="required" /><br>
-		<input type="text" name="surname" placeholder="Surname" required="required" /><br>
-		<input type="password" name="password" placeholder="Password" required="required" /><br>
-		<input type="password" name="confirmPassword" placeholder="Confirm password" required="required" /><br><br>
+		<input type="text" name="email" placeholder="email"  /><br>
+		<input type="text" name="name" placeholder="First name"  /><br>
+		<input type="text" name="surname" placeholder="Surname"  /><br>
+		<input type="password" name="password" placeholder="Password"  /><br>
+		<input type="password" name="confirmPassword" placeholder="Confirm password" /><br><br>
 		
 		<label for="avatar">You can add a photo to your account :)  (fake file loader)</label><br>
-		<input name="description" type="text"><br>
-		<input name="avatar" type="file"><br><br>
+		<input name="description" type="text"/><br>
+		<input name="avatar" type="file"/><br><br>
 		
 		<label for="captchaCodeTextBox">Confirm you are a human (fake captcha)</label><br>
 		<% 
 			// Adding BotDetect Captcha to the page
-			Captcha captcha = Captcha.load(request, "exampleCaptcha"); 
+			Captcha captcha = Captcha.load(request, "captcha"); 
 			captcha.renderCaptchaMarkup(pageContext.getServletContext(), 
 			    pageContext.getOut());
+			request.setAttribute("captcha", captcha);
 		%>
 
 		<input id="captchaCodeTextBox" type="text" name="captchaCodeTextBox" /><br><br>
-		<input class="button" type="submit" value="Registr">  
+		<input type="hidden" name="captcha" value=${captcha} />
+		<input class="button" type="submit" value="Registr"/>  
 	</form>
 </body>
 </html>

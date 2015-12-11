@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>controller</servlet-name>
+    <servlet-class>ua.nure.lubchenko.Task2.web.Controller</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/controller</url-pattern>
+  </servlet-mapping>
+  
+  <error-page>
+    <error-code>500</error-code>
+    <location>/error.html</location>
+  </error-page>
+  
+  <filter>
+		<filter-name>RegistrationValidationFilter</filter-name>
+		<filter-class>ua.nure.lubchenko.Task2.web.filters.RegistrationValidationFilter</filter-class>
+</filter>
 
-	<servlet>
+	<filter-mapping>
+		<filter-name>RegistrationValidationFilter</filter-name>
 		<servlet-name>controller</servlet-name>
-		<servlet-class>ua.nure.lubchenko.Task2.web.Controller</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>controller</servlet-name>
-		<url-pattern>/controller</url-pattern>
-	</servlet-mapping>
-
-	<error-page>
-		<error-code>500</error-code>
-		<location>/error.html</location>
-	</error-page>
-
+	</filter-mapping>
+  
+ 
 </web-app>

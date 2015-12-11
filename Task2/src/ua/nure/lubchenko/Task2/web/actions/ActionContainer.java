@@ -11,7 +11,7 @@ private static Map<String, Action> container;
 		container = new TreeMap<>();
 
 		container.put(REGISTER_ACTION_NAME, new RegistrAction());
-//		container.put(LOGIN_ACTION_NAME, new LoginAction());
+		container.put(LOGIN_ACTION_NAME, new LoginAction());
 //		container.put(LOGOUT_ACTION_NAME, new LogoutAction());
 //		container.put(SHOW_USERS_ACTION_NAME, new ShowUsersAction());
 //

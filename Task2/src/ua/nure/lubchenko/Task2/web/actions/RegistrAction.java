@@ -3,15 +3,16 @@ package ua.nure.lubchenko.Task2.web.actions;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import botdetect.web.Captcha;
 import ua.nure.lubchenko.Task2.dao.DAO;
+import ua.nure.lubchenko.Task2.dao.memory.MemoUserDAO;
 import ua.nure.lubchenko.Task2.entity.User;
-import ua.nure.lubchenko.Task2.memory.MemoUserDAO;
 
 public class RegistrAction extends Action {
 
 	@Override
 	public String perform(HttpServletRequest request, HttpServletResponse response) {
-
+		System.out.println("filter passed");
 		String name = request.getParameter("name");
 		String surname = request.getParameter("surname");
 		String password = request.getParameter("password");
@@ -28,19 +29,34 @@ public class RegistrAction extends Action {
 			forward = "/registration.jsp";
 			return forward;
 		}
-//TODO: validation
 
-		DAO<User> mudao = new MemoUserDAO();
+		Captcha captcha = (Captcha) request.getAttribute("captcha");
+		if ("POST".equalsIgnoreCase(request.getMethod())) {
+			// validate the Captcha to check we're not dealing with a bot
+			System.out.println(captcha.validate(request, request.getParameter("captchaCodeTextBox")));
+			boolean isHuman = captcha.validate(request, request.getParameter("captchaCodeTextBox"));
+			if (!isHuman) {
+				message = "Captcha does not match";
+				request.setAttribute("message", message);
+				forward = "/registration.jsp";
+				return forward;
 
-		User user = new User();
-		user.setName(name);
-		user.setPassword(password);
-		user.setSurname(surname);
-		user.setEmail(email);
-		user.setImageUrl(imageUrl);
+			} else {
+				// TODO: Captcha validation failed, show error message
 
-		mudao.create(user);
-		message = "Registration succesfull";
+				DAO<User> mudao = new MemoUserDAO();
+
+				User user = new User();
+				user.setName(name);
+				user.setPassword(password);
+				user.setSurname(surname);
+				user.setEmail(email);
+				user.setImageUrl(imageUrl);
+
+				mudao.create(user);
+				message = "Registration succesfull";
+			}
+		}
 
 		return forward;
 	}

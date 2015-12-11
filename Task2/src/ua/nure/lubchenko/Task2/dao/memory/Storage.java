@@ -1,4 +1,4 @@
-package ua.nure.lubchenko.Task2.memory;
+package ua.nure.lubchenko.Task2.dao.memory;
 
 import java.util.ArrayList;
 import java.util.List;
