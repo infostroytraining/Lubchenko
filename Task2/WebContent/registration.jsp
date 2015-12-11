@@ -27,17 +27,14 @@
 		<input name="description" type="text"/><br>
 		<input name="avatar" type="file"/><br><br>
 		
-		<label for="captchaCodeTextBox">Confirm you are a human (fake captcha)</label><br>
+		<label for="captchaCodeTextBox">Confirm you are a human</label><br>
 		<% 
-			// Adding BotDetect Captcha to the page
 			Captcha captcha = Captcha.load(request, "captcha"); 
 			captcha.renderCaptchaMarkup(pageContext.getServletContext(), 
 			    pageContext.getOut());
-			request.setAttribute("captcha", captcha);
 		%>
 
 		<input id="captchaCodeTextBox" type="text" name="captchaCodeTextBox" /><br><br>
-		<input type="hidden" name="captcha" value=${captcha} />
 		<input class="button" type="submit" value="Registr"/>  
 	</form>
 </body>

@@ -29,11 +29,15 @@ public class RegistrAction extends Action {
 			forward = "/registration.jsp";
 			return forward;
 		}
+		Captcha captcha = Captcha.load(request, "captcha"); 
 
-		Captcha captcha = (Captcha) request.getAttribute("captcha");
+	//	String captcha = request.getParameter("captcha");
 		if ("POST".equalsIgnoreCase(request.getMethod())) {
 			// validate the Captcha to check we're not dealing with a bot
-			System.out.println(captcha.validate(request, request.getParameter("captchaCodeTextBox")));
+			while ( request.getAttributeNames().hasMoreElements()) {
+				System.out.println(request.getAttributeNames().nextElement());
+			}
+			System.out.println(captcha);
 			boolean isHuman = captcha.validate(request, request.getParameter("captchaCodeTextBox"));
 			if (!isHuman) {
 				message = "Captcha does not match";
@@ -42,7 +46,6 @@ public class RegistrAction extends Action {
 				return forward;
 
 			} else {
-				// TODO: Captcha validation failed, show error message
 
 				DAO<User> mudao = new MemoUserDAO();
 

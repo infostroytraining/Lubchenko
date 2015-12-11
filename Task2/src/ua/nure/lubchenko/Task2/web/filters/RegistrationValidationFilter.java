@@ -23,7 +23,6 @@ public class RegistrationValidationFilter implements Filter {
 	 * @see Filter#destroy()
 	 */
 	public void destroy() {
-		// TODO Auto-generated method stub
 	}
 
 	/**
@@ -46,11 +45,11 @@ public class RegistrationValidationFilter implements Filter {
 			chain.doFilter(request, response);			
 		}else{
 			String message = "";
-			if(!emailMatcher.matches()) message += "Wrong E-mail form\n";
-			if(name.isEmpty()) message += "Fill the 'name' field!\n";
-			if(surname.isEmpty()) message += "Fill the 'surname' field!\n";
-			if(password.length()<=5) message += "Password shoud not be less than 6 simbols\n";
-			if(captcha.isEmpty()) message += "Fill the 'captha' field\n";
+			if(!emailMatcher.matches()) message += "Wrong E-mail form"+System.lineSeparator();
+			if(name.isEmpty()) message += "Fill the 'name' field!"+System.lineSeparator();
+			if(surname.isEmpty()) message += "Fill the 'surname' field!"+System.lineSeparator();
+			if(password.length()<=5) message += "Password shoud not be less than 6 simbols"+System.lineSeparator();
+			if(captcha.isEmpty()) message += "Fill the 'captha' field";
 			System.out.println(message);
 			request.setAttribute("message", message);
 			request.getRequestDispatcher(forward).forward(request, response);
