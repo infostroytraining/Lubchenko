@@ -4,15 +4,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import botdetect.web.Captcha;
-import ua.nure.lubchenko.Task2.dao.DAO;
-import ua.nure.lubchenko.Task2.dao.memory.MemoUserDAO;
+import ua.nure.lubchenko.Task2.dao.DAOFactory;
+import ua.nure.lubchenko.Task2.dao.UserDAO;
 import ua.nure.lubchenko.Task2.entity.User;
 
 public class RegistrAction extends Action {
-
 	@Override
 	public String perform(HttpServletRequest request, HttpServletResponse response) {
-		System.out.println("filter passed");
+		
 		String name = request.getParameter("name");
 		String surname = request.getParameter("surname");
 		String password = request.getParameter("password");
@@ -29,12 +28,10 @@ public class RegistrAction extends Action {
 			forward = "/registration.jsp";
 			return forward;
 		}
-		Captcha captcha = Captcha.load(request, "captcha"); 
+		Captcha captcha = Captcha.load(request, "captcha");
 
-	//	String captcha = request.getParameter("captcha");
 		if ("POST".equalsIgnoreCase(request.getMethod())) {
-			// validate the Captcha to check we're not dealing with a bot
-			while ( request.getAttributeNames().hasMoreElements()) {
+			while (request.getAttributeNames().hasMoreElements()) {
 				System.out.println(request.getAttributeNames().nextElement());
 			}
 			System.out.println(captcha);
@@ -47,8 +44,8 @@ public class RegistrAction extends Action {
 
 			} else {
 
-				DAO<User> mudao = new MemoUserDAO();
-
+				DAOFactory daof = DAOFactory.getDaoFactory(); 
+				UserDAO udao = daof.getUserDao();
 				User user = new User();
 				user.setName(name);
 				user.setPassword(password);
@@ -56,11 +53,10 @@ public class RegistrAction extends Action {
 				user.setEmail(email);
 				user.setImageUrl(imageUrl);
 
-				mudao.create(user);
+				udao.create(user);
 				message = "Registration succesfull";
 			}
 		}
-
 		return forward;
 	}
 }

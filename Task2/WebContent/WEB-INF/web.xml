@@ -4,10 +4,18 @@
     <servlet-name>controller</servlet-name>
     <servlet-class>ua.nure.lubchenko.Task2.web.Controller</servlet-class>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>controller</servlet-name>
     <url-pattern>/controller</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>RegistrAction</servlet-name>
+    <servlet-class>ua.nure.lubchenko.Task2.web.actions.RegistrAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrAction</servlet-name>
+    <url-pattern>/registration.jsp</url-pattern>
   </servlet-mapping>
   
   <error-page>
@@ -16,14 +24,11 @@
   </error-page>
   
   <filter>
-		<filter-name>RegistrationValidationFilter</filter-name>
-		<filter-class>ua.nure.lubchenko.Task2.web.filters.RegistrationValidationFilter</filter-class>
-</filter>
-
-	<filter-mapping>
-		<filter-name>RegistrationValidationFilter</filter-name>
-		<servlet-name>controller</servlet-name>
-	</filter-mapping>
-  
- 
+    <filter-name>RegistrationValidationFilter</filter-name>
+    <filter-class>ua.nure.lubchenko.Task2.web.filters.RegistrationValidationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>RegistrationValidationFilter</filter-name>
+    <servlet-name>RegistrAction</servlet-name>
+  </filter-mapping>
 </web-app>

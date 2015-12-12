@@ -1,7 +1,5 @@
 <%@page import="botdetect.web.Captcha"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 
 	
 <!DOCTYPE html>
@@ -14,7 +12,7 @@
 		<h1>Fill the form, please</h1>
 	</div>
 		<p>${message}</p>
-	<form id="registration_form" action="controller" method="post">
+	<form id="registration_form" action="controller" method="post" >
 		<input type="hidden" name="action" value="registr" />
 		
 		<input type="text" name="email" placeholder="email"  /><br>
@@ -35,7 +33,7 @@
 		%>
 
 		<input id="captchaCodeTextBox" type="text" name="captchaCodeTextBox" /><br><br>
-		<input class="button" type="submit" value="Registr"/>  
+		<input class="button" type="submit" value="Registr"/>  	
 	</form>
 </body>
 </html>

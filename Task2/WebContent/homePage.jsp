@@ -8,7 +8,8 @@
 <body>
 
 	<p>Hi there! It is nothing worth attention in this app, anyway it is no time to describe, you should register or login immediately</p><br><br>
-	<a href="/registration.jsp"><BUTTON>REGISTRATION</BUTTON></a><br><br>
+	<a href="/Task2/registration.jsp"><BUTTON>REGISTRATION</BUTTON></a><br><br>
+    <h2>${requestScope.message}</h2>
 
 	<form action="controller" method="post">
 		<input type="hidden" name="action" value="login" /> 
