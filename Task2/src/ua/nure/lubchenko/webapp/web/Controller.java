@@ -12,12 +12,11 @@ import org.apache.logging.log4j.Logger;
 
 import ua.nure.lubchenko.webapp.web.actions.Action;
 import ua.nure.lubchenko.webapp.web.actions.ActionContainer;
-import ua.nure.lubchenko.webapp.web.listener.ContextListener;
 
 public class Controller extends HttpServlet {
 
 	private static final long serialVersionUID = 8915343610789783941L;
-	private static Logger logger = LogManager.getLogger(ContextListener.class);
+	private static Logger logger = LogManager.getLogger();
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

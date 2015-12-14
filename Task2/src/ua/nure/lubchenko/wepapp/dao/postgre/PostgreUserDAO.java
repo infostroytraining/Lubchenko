@@ -18,7 +18,7 @@ import ua.nure.lubchenko.wepapp.dao.exception.DAOException;
 
 public class PostgreUserDAO implements UserDAO {
 
-	private static final String INSERT_USER = "INSERT INTO users values(default, ?, ?, ?, ?, ?)";
+	private static final String INSERT_USER = "INSERT INTO users values(default,?, ?, ?, ?, ?)";
 	private static final String GET_USER_BY_ID = "SELECT * FROM users WHERE id = ?";
 	private static final String GET_USER_BY_EMAIL = "SELECT * FROM users WHERE email = ?";
 
@@ -29,16 +29,17 @@ public class PostgreUserDAO implements UserDAO {
 		log.entry(user);
 		Connection connection = ConnectionHolder.getConnection();
 		try {
-			
-			System.out.println(connection);
+
+			System.out.println("oh please, connection===>" + connection);
 			PreparedStatement statement = connection.prepareStatement(INSERT_USER, Statement.RETURN_GENERATED_KEYS);
 			System.out.println(statement);
-			statement.setString(2, user.getEmail());
-			statement.setString(3, user.getPassword());
-			statement.setString(4, user.getName());
-			statement.setString(5, user.getSurname());
-			statement.setString(6, user.getImageUrl());
-			
+			int columnsCounter = 0;
+			statement.setString(++columnsCounter, user.getEmail());
+			statement.setString(++columnsCounter, user.getPassword());
+			statement.setString(++columnsCounter, user.getName());
+			statement.setString(++columnsCounter, user.getSurname());
+			statement.setString(++columnsCounter, user.getImageUrl());
+
 			statement.executeUpdate();
 			ResultSet generatedKeys = statement.getGeneratedKeys();
 			if (generatedKeys.next()) {
@@ -47,6 +48,8 @@ public class PostgreUserDAO implements UserDAO {
 		} catch (SQLException ex) {
 			log.error("SQLException during answer insert query", ex);
 			throw new DAOException(ex);
+		} finally {
+			close(connection);
 		}
 		log.exit(user);
 		return user;
@@ -69,6 +72,7 @@ public class PostgreUserDAO implements UserDAO {
 			ex.printStackTrace();
 		} finally {
 			close(rs);
+			close(connection);
 		}
 		return user;
 	}
@@ -109,6 +113,7 @@ public class PostgreUserDAO implements UserDAO {
 			ex.printStackTrace();
 		} finally {
 			close(rs);
+			close(connection);
 		}
 		return user;
 	}
@@ -124,6 +129,16 @@ public class PostgreUserDAO implements UserDAO {
 		user.setImageUrl(rs.getString(Fields.USER_IMAGE_URL));
 
 		return user;
+	}
+
+	private void close(Connection con) {
+		if (con != null) {
+			try {
+				con.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 	private void close(ResultSet rs) {

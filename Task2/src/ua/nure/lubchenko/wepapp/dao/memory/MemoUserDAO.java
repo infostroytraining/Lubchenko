@@ -2,24 +2,30 @@ package ua.nure.lubchenko.wepapp.dao.memory;
 
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import ua.nure.lubchenko.webapp.entity.User;
 import ua.nure.lubchenko.wepapp.dao.UserDAO;
 import ua.nure.lubchenko.wepapp.dao.exception.DAOException;
 
 public class MemoUserDAO implements UserDAO {
-	
-//	private UserStorage storage;
-//
-//	public MemoUserDAO(UserStorage storage) {
-//		this.storage = storage;
-//	}
+	Logger log = LogManager.getLogger();
+	// private UserStorage storage;
+	//
+	// public MemoUserDAO(UserStorage storage) {
+	// this.storage = storage;
+	// }
 
 	public User create(User user) {
-		UserStorage.putUser(user);
-		return null;
+		log.entry(user);
+		user = UserStorage.putUser(user);
+		log.exit(user);
+		return user;
 	}
 
 	public User get(int id) {
+		log.trace("getting user by id from memo storage");
 		for (User user : UserStorage.users) {
 			if (user.getId() == id) {
 				return user;
@@ -29,6 +35,7 @@ public class MemoUserDAO implements UserDAO {
 	}
 
 	public User getByEmail(String email) {
+		log.trace("getting user by email from memo storage");
 		for (User user : UserStorage.users) {
 			if (user.getEmail().equals(email)) {
 				return user;

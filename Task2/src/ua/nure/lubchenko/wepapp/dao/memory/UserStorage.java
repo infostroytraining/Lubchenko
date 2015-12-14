@@ -33,9 +33,11 @@ public class UserStorage {
 		putUser(wonderWoman);
 	}
 
-	public static void putUser(User user) {
+	public static User putUser(User user) {
 		user.setId(userIdCounter++);
 		users.add(user);
+		System.out.println(users);
+		return user;
 	}
 	
 	public static List<User> all() {
