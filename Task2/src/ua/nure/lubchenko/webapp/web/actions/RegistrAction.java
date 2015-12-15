@@ -4,10 +4,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import botdetect.web.Captcha;
+
 import ua.nure.lubchenko.webapp.entity.User;
 import ua.nure.lubchenko.webapp.service.UserService;
 import ua.nure.lubchenko.webapp.service.exception.ServiceException;
-
+import ua.nure.lubchenko.webapp.web.Path;
 
 public class RegistrAction extends Action {
 	@Override
@@ -21,15 +22,26 @@ public class RegistrAction extends Action {
 		String email = request.getParameter("email");
 		String imageUrl = request.getParameter("imageUrl");
 		String message = null;
-		String forward = "/homePage.jsp";
+		String forward = Path.HOME_PAGE;
+
+		try {
+			if (userService.emailAlreadyInUse(email)) {
+				message = "E-mail is already in use";
+				forward = Path.REGISTRATION_PAGE;
+				return forward;
+			}
+		} catch (ServiceException e1) {
+			e1.printStackTrace();
+		}
 		if (!password.equals(confirmPassword)) {
 			message = "Passwords are not equal";
 			System.out.println(message);
 
 			request.setAttribute("message", message);
-			forward = "/registration.jsp";
+			forward = Path.REGISTRATION_PAGE;
 			return forward;
 		}
+
 		Captcha captcha = Captcha.load(request, "captcha");
 
 		if ("POST".equalsIgnoreCase(request.getMethod())) {
@@ -41,9 +53,8 @@ public class RegistrAction extends Action {
 			if (!isHuman) {
 				message = "Captcha does not match";
 				request.setAttribute("message", message);
-				forward = "/registration.jsp";
+				forward = Path.REGISTRATION_PAGE;
 				return forward;
-
 			} else {
 
 				User user = new User();
@@ -55,7 +66,6 @@ public class RegistrAction extends Action {
 				try {
 					userService.add(user);
 				} catch (ServiceException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				message = "Registration succesfull";

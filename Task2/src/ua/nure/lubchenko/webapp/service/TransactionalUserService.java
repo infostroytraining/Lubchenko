@@ -60,4 +60,9 @@ public class TransactionalUserService implements UserService{
 			throw new ServiceException(e);
 		}
 	}
+
+	@Override
+	public boolean emailAlreadyInUse (String email) throws ServiceException {
+		return getByEmail(email)!=null;
+	}
 }

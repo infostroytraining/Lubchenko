@@ -11,11 +11,6 @@ import ua.nure.lubchenko.wepapp.dao.exception.DAOException;
 
 public class MemoUserDAO implements UserDAO {
 	Logger log = LogManager.getLogger();
-	// private UserStorage storage;
-	//
-	// public MemoUserDAO(UserStorage storage) {
-	// this.storage = storage;
-	// }
 
 	public User create(User user) {
 		log.entry(user);
@@ -45,15 +40,21 @@ public class MemoUserDAO implements UserDAO {
 	}
 
 	@Override
-	public User update(User entity) {
-		// TODO Auto-generated method stub
-		return null;
+	public void update(User newUser) {
+		for (User user : UserStorage.all()) {
+			if (user.getId() == newUser.getId()) {
+				user = newUser;
+			}
+		}
 	}
 
 	@Override
 	public void remove(int id) {
-		// TODO Auto-generated method stub
-
+		for (User user : UserStorage.all()) {
+			if (user.getId() == id) {
+				UserStorage.all().remove(user);
+			}
+		}
 	}
 
 	@Override

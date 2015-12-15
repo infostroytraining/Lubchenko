@@ -26,6 +26,7 @@ public class MemoUserService implements UserService {
 	@Override
 	public User add(User user) throws ServiceException {
 		User createdUser = null;
+		
 		if (user != null) {
 			try {
 				createdUser = UserDAO.create(user);
@@ -50,6 +51,11 @@ public class MemoUserService implements UserService {
 		User user = UserDAO.getByEmail(email);
 		log.exit(user);
 		return user;
+	}
+	
+	@Override
+	public boolean emailAlreadyInUse(String email) throws ServiceException{
+		return getByEmail(email)!=null;
 	}
 
 }

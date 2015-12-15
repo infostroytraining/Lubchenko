@@ -12,6 +12,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 
+import ua.nure.lubchenko.webapp.web.Path;
 
 /**
  * Servlet Filter implementation class RegistrationValidationFilter
@@ -37,19 +38,25 @@ public class RegistrationValidationFilter implements Filter {
 		String email = request.getParameter("email");
 		System.out.println(email);
 		String captcha = request.getParameter("captchaCodeTextBox");
-		String forward = "/registration.jsp";
+		String forward = Path.REGISTRATION_PAGE;
 		Pattern emailPattern = Pattern.compile("[a-z][0-9a-z.-_]*@[a-z]+.[a-z]+");
 		Matcher emailMatcher = emailPattern.matcher(email.toLowerCase());
 		if (name != null && !name.isEmpty() && surname != null && !surname.isEmpty() && password != null
-				&& password.length()>5 && email!=null && emailMatcher.matches() && captcha!=null && !captcha.isEmpty()){
-			chain.doFilter(request, response);			
-		}else{
+				&& password.length() > 5 && email != null && emailMatcher.matches() && captcha != null
+				&& !captcha.isEmpty()) {
+			chain.doFilter(request, response);
+		} else {
 			String message = "";
-			if(!emailMatcher.matches()) message += "Wrong E-mail form"+System.lineSeparator();
-			if(name.isEmpty()) message += "Fill the 'name' field!"+System.lineSeparator();
-			if(surname.isEmpty()) message += "Fill the 'surname' field!"+System.lineSeparator();
-			if(password.length()<=5) message += "Password shoud not be less than 6 simbols"+System.lineSeparator();
-			if(captcha.isEmpty()) message += "Fill the 'captha' field";
+			if (!emailMatcher.matches())
+				message += "Wrong E-mail form" + System.lineSeparator();
+			if (name.isEmpty())
+				message += "Fill the 'name' field!" + System.lineSeparator();
+			if (surname.isEmpty())
+				message += "Fill the 'surname' field!" + System.lineSeparator();
+			if (password.length() <= 5)
+				message += "Password shoud not be less than 6 simbols" + System.lineSeparator();
+			if (captcha.isEmpty())
+				message += "Fill the 'captha' field";
 			System.out.println(message);
 			request.setAttribute("message", message);
 			request.getRequestDispatcher(forward).forward(request, response);

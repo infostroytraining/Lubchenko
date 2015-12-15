@@ -9,7 +9,7 @@ public interface DAO<T> {
 
 	T get(int id);
 
-	T update(T entity);
+	void update(T entity);
 
 	void remove(int id);
 

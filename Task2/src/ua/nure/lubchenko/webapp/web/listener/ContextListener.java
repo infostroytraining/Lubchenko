@@ -1,5 +1,7 @@
 package ua.nure.lubchenko.webapp.web.listener;
 
+import java.io.File;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -21,16 +23,24 @@ public class ContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
-		logger.trace("In context listener");
-		System.out.println("In context listener");
+
 		ServletContext context = sce.getServletContext();
+
+		initStorage(context);
+		//initImageUploaderParams(context);
+	}
+
+	private void initStorage(ServletContext context) {
 		String storageMode = context.getInitParameter(STORAGE_INIT_PARAMETER);
-		
 		logger.debug("Try to initialize service for {} storage mode", storageMode);
 		UserService userService = ServiceFactory.getUserService(storageMode);
 		logger.debug("service initialized. Service: {}", userService);
-		
 		context.setAttribute("userService", userService);
+	}
+
+	private void initImageUploaderParams(ServletContext context) {
+		String realPath = context.getRealPath("userImage/");
+        context.setAttribute("PHOTO_DIR", realPath + File.separator);
 	}
 
 	@Override

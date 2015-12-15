@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -21,6 +22,11 @@ public class PostgreUserDAO implements UserDAO {
 	private static final String INSERT_USER = "INSERT INTO users values(default,?, ?, ?, ?, ?)";
 	private static final String GET_USER_BY_ID = "SELECT * FROM users WHERE id = ?";
 	private static final String GET_USER_BY_EMAIL = "SELECT * FROM users WHERE email = ?";
+	private static final String UPDATE_USER = "UPDATE users SET email=?, password=?, name=?, surname=?, imageurl=? WHERE id=?";
+	private static final String DELETE_USER = "DELETE FROM users WHERE id_user=?";
+	private static final String SELECT_ALL = "SELECT * FROM users";
+
+	
 
 	private static final Logger log = LogManager.getLogger();
 
@@ -30,9 +36,7 @@ public class PostgreUserDAO implements UserDAO {
 		Connection connection = ConnectionHolder.getConnection();
 		try {
 
-			System.out.println("oh please, connection===>" + connection);
 			PreparedStatement statement = connection.prepareStatement(INSERT_USER, Statement.RETURN_GENERATED_KEYS);
-			System.out.println(statement);
 			int columnsCounter = 0;
 			statement.setString(++columnsCounter, user.getEmail());
 			statement.setString(++columnsCounter, user.getPassword());
@@ -78,21 +82,59 @@ public class PostgreUserDAO implements UserDAO {
 	}
 
 	@Override
-	public User update(User entity) {
-		// TODO Auto-generated method stub
-		return null;
+	public void update(User user) {
+		Connection connection = ConnectionHolder.getConnection();
+		try {
+			PreparedStatement pstm = connection.prepareStatement(UPDATE_USER);
+			int columnsCounter = 0;
+			pstm.setString(++columnsCounter, user.getEmail());
+			pstm.setString(++columnsCounter, user.getPassword());
+			pstm.setString(++columnsCounter, user.getName());
+			pstm.setString(++columnsCounter, user.getSurname());
+			pstm.setString(++columnsCounter, user.getImageUrl());
+
+			pstm.execute();
+		} catch (SQLException ex) {
+			ex.printStackTrace();
+		} finally {
+			close(connection);
+		}
 	}
 
 	@Override
 	public void remove(int id) {
-		// TODO Auto-generated method stub
-
+		Connection connection = ConnectionHolder.getConnection();
+		try {
+			PreparedStatement pstm = connection.prepareStatement(DELETE_USER);
+			pstm.setInt(1, id);
+			pstm.execute();
+		} catch (SQLException ex) {
+			ex.printStackTrace();
+		}
 	}
 
 	@Override
 	public List<User> getAll() throws DAOException {
-		// TODO Auto-generated method stub
-		return null;
+		Connection connection = ConnectionHolder.getConnection();
+		List<User> usersList = new ArrayList<User>();
+		Statement stm = null;
+		ResultSet rs = null;
+		try {
+			stm = connection.createStatement();
+			stm.executeQuery(SELECT_ALL);
+			rs = stm.getResultSet();
+
+			while (rs.next()) {
+				usersList.add(extractUser(rs));
+			}
+		} catch (SQLException ex) {
+			ex.printStackTrace();
+		} finally {
+			System.out.println(usersList);
+			close(rs);
+			close(stm);
+		}
+		return usersList;
 	}
 
 	@Override
@@ -145,6 +187,16 @@ public class PostgreUserDAO implements UserDAO {
 		if (rs != null) {
 			try {
 				rs.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	private void close(Statement stmt) {
+		if (stmt != null) {
+			try {
+				stmt.close();
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}

@@ -10,4 +10,6 @@ public interface UserService {
 	public User getById(int id) throws ServiceException;
 	
 	public User getByEmail(String email) throws ServiceException;
+	
+	public boolean emailAlreadyInUse(String email) throws ServiceException;
 }
