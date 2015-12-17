@@ -12,8 +12,12 @@ public class MyJCommander {
 	@Parameter(names = { "--task", "-t" }, converter = CommandConverter.class)
 	private Command task;
 
-	@Parameter(names = { "--help" })
+	@Parameter(names = { "--parallel","-p" }, required = false)
+	private boolean parallel = false;
+	
+	@Parameter(names = { "--help" }, required = false)
 	private boolean help = false;
+	
 	/**
 	 * @return the inputFIleName
 	 */
@@ -49,5 +53,12 @@ public class MyJCommander {
 	 */
 	public boolean isHelp() {
 		return help;
+	}
+	
+	/**
+	 * @return the parallel
+	 */
+	public boolean isParallel() {
+		return parallel;
 	}
 }
