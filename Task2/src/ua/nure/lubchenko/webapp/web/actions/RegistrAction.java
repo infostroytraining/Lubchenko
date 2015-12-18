@@ -3,6 +3,9 @@ package ua.nure.lubchenko.webapp.web.actions;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import botdetect.web.Captcha;
 
 import ua.nure.lubchenko.webapp.entity.User;
@@ -11,51 +14,75 @@ import ua.nure.lubchenko.webapp.service.exception.ServiceException;
 import ua.nure.lubchenko.webapp.web.Path;
 
 public class RegistrAction extends Action {
+	private final static Logger log = LogManager.getLogger();
+
 	@Override
 	public String perform(HttpServletRequest request, HttpServletResponse response) {
+		log.trace("Registr action strarts");
+
+		log.trace("Getting userServise from servlet context by attribute");
 		UserService userService = (UserService) request.getServletContext().getAttribute("userService");
 
 		String name = request.getParameter("name");
+		log.trace("Obtained parmetr: name = " + name);
+
 		String surname = request.getParameter("surname");
+		log.trace("Obtained parmetr: surname = " + surname);
+
 		String password = request.getParameter("password");
+		log.trace("Obtained parmetr: password = " + password);
+
 		String confirmPassword = request.getParameter("confirmPassword");
+		log.trace("Obtained parmetr: confirmPassword = " + confirmPassword);
+
 		String email = request.getParameter("email");
+		log.trace("Obtained parmetr: email = " + email);
+
 		String imageUrl = request.getParameter("imageUrl");
+		log.trace("Obtained parmetr: imageUrl = " + imageUrl);
+
 		String message = null;
 		String forward = Path.HOME_PAGE;
+		log.trace("Forward adress: " + forward);
 
 		try {
 			if (userService.emailAlreadyInUse(email)) {
 				message = "E-mail is already in use";
+				log.warn(message);
 				forward = Path.REGISTRATION_PAGE;
+				log.trace("Forward adress: " + forward);
+
 				return forward;
 			}
-		} catch (ServiceException e1) {
-			e1.printStackTrace();
+		} catch (ServiceException e) {
+			log.error("ServiceException - {} ocurred", e);
 		}
 		if (!password.equals(confirmPassword)) {
 			message = "Passwords are not equal";
-			System.out.println(message);
-
+			log.warn(message);
 			request.setAttribute("message", message);
 			forward = Path.REGISTRATION_PAGE;
+			log.trace("Forward adress: " + forward);
+			log.info("Registration action was interrapted");
 			return forward;
 		}
 
 		Captcha captcha = Captcha.load(request, "captcha");
 
 		if ("POST".equalsIgnoreCase(request.getMethod())) {
-			while (request.getAttributeNames().hasMoreElements()) {
-				System.out.println(request.getAttributeNames().nextElement());
-			}
-			System.out.println(captcha);
+			log.trace("Checking captcha...");
 			boolean isHuman = captcha.validate(request, request.getParameter("captchaCodeTextBox"));
 			if (!isHuman) {
 				message = "Captcha does not match";
+				log.warn(message);
 				request.setAttribute("message", message);
 				forward = Path.REGISTRATION_PAGE;
+				log.trace("Forward adress: " + forward);
+				log.info("Registration action was interrapted");
 				return forward;
 			} else {
+				log.trace("Captcha matches");
+				log.trace("Setting fields to the new user instance...");
 
 				User user = new User();
 				user.setName(name);
@@ -63,14 +90,18 @@ public class RegistrAction extends Action {
 				user.setSurname(surname);
 				user.setEmail(email);
 				user.setImageUrl(imageUrl);
+				
+				log.trace("Finished setting user fields");
 				try {
+					log.trace("Adding user to the storage");
 					userService.add(user);
 				} catch (ServiceException e) {
-					e.printStackTrace();
+					log.error("ServiceException - {} ocurred", e);
 				}
-				message = "Registration succesfull";
+				message = "Registration successful";
 			}
 		}
+		log.info("Registration action finished successful");
 		return forward;
 	}
 }

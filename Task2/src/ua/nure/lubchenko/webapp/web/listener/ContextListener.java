@@ -1,7 +1,5 @@
 package ua.nure.lubchenko.webapp.web.listener;
 
-import java.io.File;
-
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -23,28 +21,30 @@ public class ContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
+		logger.info("Context listener initializatin ...");
 
 		ServletContext context = sce.getServletContext();
 
 		initStorage(context);
 		//initImageUploaderParams(context);
+		logger.info("Context listener initializatin finished");
 	}
 
 	private void initStorage(ServletContext context) {
 		String storageMode = context.getInitParameter(STORAGE_INIT_PARAMETER);
-		logger.debug("Try to initialize service for {} storage mode", storageMode);
+		logger.info("Try to initialize service for {} storage mode", storageMode);
 		UserService userService = ServiceFactory.getUserService(storageMode);
-		logger.debug("service initialized. Service: {}", userService);
+		logger.info("Service initialized. Service: {}", userService);
 		context.setAttribute("userService", userService);
 	}
 
-	private void initImageUploaderParams(ServletContext context) {
-		String realPath = context.getRealPath("userImage/");
-        context.setAttribute("PHOTO_DIR", realPath + File.separator);
-	}
+//	private void initImageUploaderParams(ServletContext context) {
+//		String realPath = context.getRealPath("userImage/");
+//        context.setAttribute("PHOTO_DIR", realPath + File.separator);
+//	}
 
 	@Override
 	public void contextDestroyed(ServletContextEvent sce) {
-		logger.debug("servlet context is destroyed");
+		logger.info("Servlet context is destroyed");
 	}
 }

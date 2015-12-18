@@ -18,6 +18,7 @@ import ua.nure.lubchenko.wepapp.dao.UserDAO;
 import ua.nure.lubchenko.wepapp.dao.exception.DAOException;
 
 public class PostgreUserDAO implements UserDAO {
+	private static final Logger log = LogManager.getLogger();
 
 	private static final String INSERT_USER = "INSERT INTO users values(default,?, ?, ?, ?, ?)";
 	private static final String GET_USER_BY_ID = "SELECT * FROM users WHERE id = ?";
@@ -26,12 +27,9 @@ public class PostgreUserDAO implements UserDAO {
 	private static final String DELETE_USER = "DELETE FROM users WHERE id_user=?";
 	private static final String SELECT_ALL = "SELECT * FROM users";
 
-	
-
-	private static final Logger log = LogManager.getLogger();
-
 	@Override
 	public User create(User user) throws DAOException {
+		log.info("PostgreUserDAO#create user");
 		log.entry(user);
 		Connection connection = ConnectionHolder.getConnection();
 		try {
@@ -50,17 +48,21 @@ public class PostgreUserDAO implements UserDAO {
 				user.setId(generatedKeys.getInt(1));
 			}
 		} catch (SQLException ex) {
-			log.error("SQLException during answer insert query", ex);
+			log.error("SQLException during user insert query", ex);
 			throw new DAOException(ex);
 		} finally {
 			close(connection);
 		}
 		log.exit(user);
+		log.info("finished PostgreUserDAO#create user");
 		return user;
 	}
 
 	@Override
 	public User get(int id) {
+		log.info("PostgreUserDAO # get user by ID");
+		log.entry(id);
+
 		Connection connection = ConnectionHolder.getConnection();
 		User user = null;
 		ResultSet rs = null;
@@ -73,16 +75,20 @@ public class PostgreUserDAO implements UserDAO {
 				user = extractUser(rs);
 			}
 		} catch (SQLException ex) {
-			ex.printStackTrace();
+			log.error("SQLException during user getById query", ex);
 		} finally {
 			close(rs);
 			close(connection);
 		}
+		log.exit(user);
+		log.info("finished PostgreUserDAO # get user by ID");
 		return user;
 	}
 
 	@Override
 	public void update(User user) {
+		log.info("PostgreUserDAO # update user");
+		log.entry(user);
 		Connection connection = ConnectionHolder.getConnection();
 		try {
 			PreparedStatement pstm = connection.prepareStatement(UPDATE_USER);
@@ -95,26 +101,33 @@ public class PostgreUserDAO implements UserDAO {
 
 			pstm.execute();
 		} catch (SQLException ex) {
-			ex.printStackTrace();
+			log.error("SQLException during user update query", ex);			
 		} finally {
 			close(connection);
 		}
+		log.info("finished updating");
 	}
 
 	@Override
 	public void remove(int id) {
+		log.info("PostgreUserDAO # delete user by ID");
+		log.entry(id);
 		Connection connection = ConnectionHolder.getConnection();
 		try {
 			PreparedStatement pstm = connection.prepareStatement(DELETE_USER);
 			pstm.setInt(1, id);
 			pstm.execute();
 		} catch (SQLException ex) {
-			ex.printStackTrace();
+			log.error("SQLException during user delete query", ex);			
+		}finally{
+			close(connection);
 		}
+		log.info("finished removing");
 	}
 
 	@Override
 	public List<User> getAll() throws DAOException {
+		log.info("PostgreUserDAO # get all users from db");
 		Connection connection = ConnectionHolder.getConnection();
 		List<User> usersList = new ArrayList<User>();
 		Statement stm = null;
@@ -128,17 +141,19 @@ public class PostgreUserDAO implements UserDAO {
 				usersList.add(extractUser(rs));
 			}
 		} catch (SQLException ex) {
-			ex.printStackTrace();
+			log.error("SQLException during user getAll query", ex);			
 		} finally {
-			System.out.println(usersList);
 			close(rs);
 			close(stm);
 		}
+		log.info("Finished getAll method");
 		return usersList;
 	}
 
 	@Override
 	public User getByEmail(String email) {
+		log.info("PostgreUserDAO # get user by E-mail");
+		log.entry(email);
 		Connection connection = ConnectionHolder.getConnection();
 		User user = null;
 		ResultSet rs = null;
@@ -152,54 +167,65 @@ public class PostgreUserDAO implements UserDAO {
 				user = extractUser(rs);
 			}
 		} catch (SQLException ex) {
-			ex.printStackTrace();
+			log.error("SQLException during user getByEmail query", ex);			
 		} finally {
 			close(rs);
 			close(connection);
 		}
+		log.exit(user);
+		log.info("finished PostgreUserDAO # get user by E-mail");
 		return user;
 	}
 
 	private User extractUser(ResultSet rs) throws SQLException {
-		User user = new User();
+		log.info("Extracting user from db...");
 
+		User user = new User();
 		user.setId(rs.getInt(Fields.USER_ID));
 		user.setEmail(rs.getString(Fields.USER_EMAIL));
 		user.setPassword(rs.getString(Fields.USER_PASSWORD));
 		user.setName(rs.getString(Fields.USER_NAME));
 		user.setSurname(rs.getString(Fields.USER_SURNAME));
 		user.setImageUrl(rs.getString(Fields.USER_IMAGE_URL));
-
+		log.info("Finished extrating user");
+		log.exit(user);
 		return user;
 	}
 
 	private void close(Connection con) {
+		log.info("Closing connection resources...");
 		if (con != null) {
 			try {
 				con.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				log.error("SQLException ocured while closing connection: "+e);
 			}
 		}
+		log.info("Finished closing connection");
 	}
 
 	private void close(ResultSet rs) {
+		log.info("Closing result set resources...");
+
 		if (rs != null) {
 			try {
 				rs.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				log.error("SQLException ocured while closing result set: "+e);
 			}
 		}
+		log.info("Finished closing result set");
 	}
 	
 	private void close(Statement stmt) {
+		log.info("Closing statement resources...");
 		if (stmt != null) {
 			try {
 				stmt.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				log.error("SQLException ocured while closing statement: "+e);
 			}
 		}
+		log.info("Finished closing statement");
 	}
 }

@@ -22,15 +22,17 @@ public class ServiceFactory {
 	private static Logger logger = LogManager.getLogger();
 
 	public static UserService getUserService(String type) {
-		logger.trace("In service factory");
-		System.out.println("In service factory");
+	logger.info("Service factory starts");
 		if (type == null || type.isEmpty()) {
 			logger.fatal("Could initialize application. Source type is null or empty");
 			throw new IllegalArgumentException();
 		}
 		if (type.equals(MEMORY)) {
+			logger.trace("Storage type : "+type);
 			return initMemoryService();
 		} else if (type.equals(DB)) {
+			logger.trace("Storage type : "+type);
+
 			loadPostgreDriver();
 			return initTransactionalService();
 		} else {
@@ -40,8 +42,10 @@ public class ServiceFactory {
 	}
 
 	private static void loadPostgreDriver() {
+		logger.info("Loading Postgre Driver...");
 		try {
 			Class.forName(POSTGRE_DRIVER);
+			logger.info("Finished loading Postgre Driver");
 		} catch (ClassNotFoundException e) {
 			logger.fatal("Could not load {  } driver", POSTGRE_DRIVER);
 			throw new ServiceConfigurationError("Could not load " + POSTGRE_DRIVER + " driver");
@@ -49,14 +53,17 @@ public class ServiceFactory {
 	}
 
 	private static UserService initMemoryService() {
-		//UserStorage storage = new UserStorage();
+		logger.info("Initializating memory service...");
 		UserDAO userDAO = new MemoUserDAO();
+		logger.info("Finished initializating memory service");
 		return new MemoUserService(userDAO);
 	}
 
 	private static UserService initTransactionalService() {
+		logger.info("Initializating transactional service...");
 		TransactionManager transactionManager = new TransactionManager();
 		UserDAO userDAO = new PostgreUserDAO();
+		logger.info("Finished initializating transactional service...");
 		return new TransactionalUserService(transactionManager, userDAO);
 	}
 }

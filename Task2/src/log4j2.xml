@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
-  <Appenders>
-    <Console name="Console" target="SYSTEM_OUT">
-      <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level :  %method  :  %line - %msg%n"/>
-    </Console>
-  </Appenders>
-  <Loggers>
-    <Root level="all">
-      <AppenderRef ref="Console"/>
-    </Root>
-  </Loggers>
+<Configuration>
+
+	<Appenders>
+		<File name="file" fileName="/Task2/src/dao-log.log" append="true">
+			<PatternLayout pattern="%t %-5p %c{2} - %m%n" />
+		</File>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5p (%F - %M:%L) - %m%n" />
+		</Console>
+	</Appenders>
+	
+	<Loggers>
+		<Logger name="org.apache.log4j.xml" level="all">
+			<AppenderRef ref="file" />
+		</Logger>
+		<Root level="all">
+			<AppenderRef ref="console" />
+		</Root>
+	</Loggers>
+	
 </Configuration>

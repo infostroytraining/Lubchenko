@@ -12,6 +12,9 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import ua.nure.lubchenko.webapp.web.Path;
 
 /**
@@ -19,11 +22,12 @@ import ua.nure.lubchenko.webapp.web.Path;
  */
 @WebFilter("/RegistrationValidationFilter")
 public class RegistrationValidationFilter implements Filter {
-
+private static final Logger log = LogManager.getLogger();
 	/**
 	 * @see Filter#destroy()
 	 */
 	public void destroy() {
+		log.info("Filter#destroy");
 	}
 
 	/**
@@ -31,19 +35,35 @@ public class RegistrationValidationFilter implements Filter {
 	 */
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		System.out.println("filter start");
+		log.info("Filter starts");
+		
 		String name = request.getParameter("name");
+		log.trace("Obtained parametr : name = "+name);
+		
 		String surname = request.getParameter("surname");
+		log.trace("Obtained parametr : surname = "+surname);
+
 		String password = request.getParameter("password");
+		log.trace("Obtained parametr : password = "+password);
+
 		String email = request.getParameter("email");
-		System.out.println(email);
+		log.trace("Obtained parametr : email = "+email);
+
 		String captcha = request.getParameter("captchaCodeTextBox");
+		log.trace("Obtained parametr : captchaCodeTextBox = "+captcha);
+
 		String forward = Path.REGISTRATION_PAGE;
+		log.trace("Forward path = "+forward);
+
 		Pattern emailPattern = Pattern.compile("[a-z][0-9a-z.-_]*@[a-z]+.[a-z]+");
 		Matcher emailMatcher = emailPattern.matcher(email.toLowerCase());
+		
 		if (name != null && !name.isEmpty() && surname != null && !surname.isEmpty() && password != null
 				&& password.length() > 5 && email != null && emailMatcher.matches() && captcha != null
 				&& !captcha.isEmpty()) {
+			log.trace("All registration parametrs are valid");
+			
+			log.info("Registration Validation Filter finished successful");
 			chain.doFilter(request, response);
 		} else {
 			String message = "";
@@ -57,8 +77,10 @@ public class RegistrationValidationFilter implements Filter {
 				message += "Password shoud not be less than 6 simbols" + System.lineSeparator();
 			if (captcha.isEmpty())
 				message += "Fill the 'captha' field";
-			System.out.println(message);
+			log.warn(message);
 			request.setAttribute("message", message);
+			
+			log.info("Filter was interrapted");
 			request.getRequestDispatcher(forward).forward(request, response);
 		}
 	}
@@ -67,7 +89,7 @@ public class RegistrationValidationFilter implements Filter {
 	 * @see Filter#init(FilterConfig)
 	 */
 	public void init(FilterConfig fConfig) throws ServletException {
-
+		log.info("Filter#init(FilterConfig)");
 	}
 
 }
