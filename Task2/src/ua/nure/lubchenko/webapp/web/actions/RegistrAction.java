@@ -6,8 +6,6 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import botdetect.web.Captcha;
-
 import ua.nure.lubchenko.webapp.entity.User;
 import ua.nure.lubchenko.webapp.service.UserService;
 import ua.nure.lubchenko.webapp.service.exception.ServiceException;
@@ -18,6 +16,7 @@ public class RegistrAction extends Action {
 
 	@Override
 	public String perform(HttpServletRequest request, HttpServletResponse response) {
+
 		log.trace("Registr action strarts");
 
 		log.trace("Getting userServise from servlet context by attribute");
@@ -67,40 +66,22 @@ public class RegistrAction extends Action {
 			return forward;
 		}
 
-		Captcha captcha = Captcha.load(request, "captcha");
+		User user = new User();
+		user.setName(name);
+		user.setPassword(password);
+		user.setSurname(surname);
+		user.setEmail(email);
+		user.setImageUrl(imageUrl);
 
-		if ("POST".equalsIgnoreCase(request.getMethod())) {
-			log.trace("Checking captcha...");
-			boolean isHuman = captcha.validate(request, request.getParameter("captchaCodeTextBox"));
-			if (!isHuman) {
-				message = "Captcha does not match";
-				log.warn(message);
-				request.setAttribute("message", message);
-				forward = Path.REGISTRATION_PAGE;
-				log.trace("Forward adress: " + forward);
-				log.info("Registration action was interrapted");
-				return forward;
-			} else {
-				log.trace("Captcha matches");
-				log.trace("Setting fields to the new user instance...");
-
-				User user = new User();
-				user.setName(name);
-				user.setPassword(password);
-				user.setSurname(surname);
-				user.setEmail(email);
-				user.setImageUrl(imageUrl);
-				
-				log.trace("Finished setting user fields");
-				try {
-					log.trace("Adding user to the storage");
-					userService.add(user);
-				} catch (ServiceException e) {
-					log.error("ServiceException - {} ocurred", e);
-				}
-				message = "Registration successful";
-			}
+		log.trace("Finished setting user fields");
+		try {
+			log.trace("Adding user to the storage");
+			userService.add(user);
+		} catch (ServiceException e) {
+			log.error("ServiceException - {} ocurred", e);
 		}
+		message = "Registration successful";
+
 		log.info("Registration action finished successful");
 		return forward;
 	}

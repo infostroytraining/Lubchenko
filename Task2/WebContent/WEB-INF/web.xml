@@ -1,45 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
- 
-  <servlet>
-    <servlet-name>controller</servlet-name>
-    <servlet-class>ua.nure.lubchenko.webapp.web.Controller</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>controller</servlet-name>
-    <url-pattern>/controller</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-    <servlet-name>RegistrAction</servlet-name>
-    <servlet-class>ua.nure.lubchenko.webapp.web.actions.RegistrAction</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>RegistrAction</servlet-name>
-    <url-pattern>/RegistrAction</url-pattern>
-  </servlet-mapping>
-  
-  <error-page>
-    <error-code>500</error-code>
-    <location>/error.html</location>
-  </error-page>
-  
-  <filter>
-    <filter-name>RegistrationValidationFilter</filter-name>
-    <filter-class>ua.nure.lubchenko.webapp.web.filters.RegistrationValidationFilter</filter-class>
-  </filter>
-  
-  <filter-mapping>
-    <filter-name>RegistrationValidationFilter</filter-name>
-    <servlet-name>RegistrAction</servlet-name>
-  </filter-mapping>
-  
- 	<listener>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	
+		
+	<filter>
+		<filter-name>RegistrationValidationFilter</filter-name>
+		<filter-class>ua.nure.lubchenko.webapp.web.filters.RegistrationValidationFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>RegistrationValidationFilter</filter-name>
+		<servlet-name>controller</servlet-name>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>CaptchaCheckFilter</filter-name>
+		<filter-class>ua.nure.lubchenko.webapp.web.filters.CaptchaCheckFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>CaptchaCheckFilter</filter-name>
+		<servlet-name>controller</servlet-name>
+	</filter-mapping>
+	
+	<servlet>
+		<servlet-name>controller</servlet-name>
+		<servlet-class>ua.nure.lubchenko.webapp.web.Controller</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>controller</servlet-name>
+		<url-pattern>/controller</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegistrAction</servlet-name>
+		<servlet-class>ua.nure.lubchenko.webapp.web.actions.RegistrAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RegistrAction</servlet-name>
+		<url-pattern>/RegistrAction</url-pattern>
+	</servlet-mapping>
+
+	<error-page>
+		<error-code>500</error-code>
+		<location>/erroPage.jsp</location>
+	</error-page>
+
+	<listener>
 		<listener-class>ua.nure.lubchenko.webapp.web.listener.ContextListener</listener-class>
 	</listener>
-
+	
 	<context-param>
 		<param-name>storage</param-name>
 		<param-value>db</param-value>

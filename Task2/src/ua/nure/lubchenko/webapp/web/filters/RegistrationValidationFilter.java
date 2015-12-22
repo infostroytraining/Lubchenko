@@ -22,7 +22,8 @@ import ua.nure.lubchenko.webapp.web.Path;
  */
 @WebFilter("/RegistrationValidationFilter")
 public class RegistrationValidationFilter implements Filter {
-private static final Logger log = LogManager.getLogger();
+	private static final Logger log = LogManager.getLogger();
+
 	/**
 	 * @see Filter#destroy()
 	 */
@@ -35,53 +36,57 @@ private static final Logger log = LogManager.getLogger();
 	 */
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		log.info("Filter starts");
-		
-		String name = request.getParameter("name");
-		log.trace("Obtained parametr : name = "+name);
-		
-		String surname = request.getParameter("surname");
-		log.trace("Obtained parametr : surname = "+surname);
+		if ("registr".equals(request.getParameter("action"))) {
+			log.info("Filter starts");
 
-		String password = request.getParameter("password");
-		log.trace("Obtained parametr : password = "+password);
+			String name = request.getParameter("name");
+			log.trace("Obtained parametr : name = " + name);
 
-		String email = request.getParameter("email");
-		log.trace("Obtained parametr : email = "+email);
+			String surname = request.getParameter("surname");
+			log.trace("Obtained parametr : surname = " + surname);
 
-		String captcha = request.getParameter("captchaCodeTextBox");
-		log.trace("Obtained parametr : captchaCodeTextBox = "+captcha);
+			String password = request.getParameter("password");
+			log.trace("Obtained parametr : password = " + password);
 
-		String forward = Path.REGISTRATION_PAGE;
-		log.trace("Forward path = "+forward);
+			String email = request.getParameter("email");
+			log.trace("Obtained parametr : email = " + email);
 
-		Pattern emailPattern = Pattern.compile("[a-z][0-9a-z.-_]*@[a-z]+.[a-z]+");
-		Matcher emailMatcher = emailPattern.matcher(email.toLowerCase());
-		
-		if (name != null && !name.isEmpty() && surname != null && !surname.isEmpty() && password != null
-				&& password.length() > 5 && email != null && emailMatcher.matches() && captcha != null
-				&& !captcha.isEmpty()) {
-			log.trace("All registration parametrs are valid");
-			
-			log.info("Registration Validation Filter finished successful");
-			chain.doFilter(request, response);
+			String captcha = request.getParameter("captchaCodeTextBox");
+			log.trace("Obtained parametr : captchaCodeTextBox = " + captcha);
+
+			String forward = Path.REGISTRATION_PAGE;
+			log.trace("Forward path = " + forward);
+
+			Pattern emailPattern = Pattern.compile("[a-z][0-9a-z.-_]*@[a-z]+.[a-z]+");
+			Matcher emailMatcher = emailPattern.matcher(email.toLowerCase());
+
+			if (name != null && !name.isEmpty() && surname != null && !surname.isEmpty() && password != null
+					&& password.length() > 5 && email != null && emailMatcher.matches() && captcha != null
+					&& !captcha.isEmpty()) {
+				log.trace("All registration parametrs are valid");
+
+				log.info("Registration Validation Filter finished successful");
+				chain.doFilter(request, response);
+			} else {
+				String message = "";
+				if (!emailMatcher.matches())
+					message += "Wrong E-mail form" + System.lineSeparator();
+				if (name.isEmpty())
+					message += "Fill the 'name' field!" + System.lineSeparator();
+				if (surname.isEmpty())
+					message += "Fill the 'surname' field!" + System.lineSeparator();
+				if (password.length() <= 5)
+					message += "Password shoud not be less than 6 simbols" + System.lineSeparator();
+				if (captcha.isEmpty())
+					message += "Fill the 'captha' field";
+				log.warn(message);
+				request.setAttribute("message", message);
+
+				log.info("Filter was interrapted");
+				request.getRequestDispatcher(forward).forward(request, response);
+			}
 		} else {
-			String message = "";
-			if (!emailMatcher.matches())
-				message += "Wrong E-mail form" + System.lineSeparator();
-			if (name.isEmpty())
-				message += "Fill the 'name' field!" + System.lineSeparator();
-			if (surname.isEmpty())
-				message += "Fill the 'surname' field!" + System.lineSeparator();
-			if (password.length() <= 5)
-				message += "Password shoud not be less than 6 simbols" + System.lineSeparator();
-			if (captcha.isEmpty())
-				message += "Fill the 'captha' field";
-			log.warn(message);
-			request.setAttribute("message", message);
-			
-			log.info("Filter was interrapted");
-			request.getRequestDispatcher(forward).forward(request, response);
+			chain.doFilter(request, response);
 		}
 	}
 
