@@ -1,0 +1,1103 @@
+2015-12-22 14:30:26,518 TRACE (RegistrAction.java - perform:21) - Registr action strarts
+2015-12-22 14:30:26,527 TRACE (RegistrAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 14:30:26,534 TRACE (RegistrAction.java - perform:27) - Obtained parmetr: name = Spider
+2015-12-22 14:30:26,536 TRACE (RegistrAction.java - perform:30) - Obtained parmetr: surname = Man
+2015-12-22 14:30:26,538 TRACE (RegistrAction.java - perform:33) - Obtained parmetr: password = spider321
+2015-12-22 14:30:26,540 TRACE (RegistrAction.java - perform:36) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 14:30:26,542 TRACE (RegistrAction.java - perform:39) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 14:30:26,544 TRACE (RegistrAction.java - perform:42) - Obtained parmetr: imageUrl = null
+2015-12-22 14:30:26,545 TRACE (RegistrAction.java - perform:46) - Forward adress: /homePage.jsp
+2015-12-22 14:35:31,630 TRACE (RegistrAction.java - perform:21) - Registr action strarts
+2015-12-22 14:35:31,716 TRACE (RegistrAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 14:35:31,776 TRACE (RegistrAction.java - perform:27) - Obtained parmetr: name = Spider
+2015-12-22 14:35:31,777 TRACE (RegistrAction.java - perform:30) - Obtained parmetr: surname = Man
+2015-12-22 14:35:31,778 TRACE (RegistrAction.java - perform:33) - Obtained parmetr: password = spider321
+2015-12-22 14:35:31,780 TRACE (RegistrAction.java - perform:36) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 14:35:31,783 TRACE (RegistrAction.java - perform:39) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 14:35:31,784 TRACE (RegistrAction.java - perform:42) - Obtained parmetr: imageUrl = null
+2015-12-22 14:35:31,786 TRACE (RegistrAction.java - perform:46) - Forward adress: /homePage.jsp
+2015-12-22 14:39:03,836 TRACE (RegistrAction.java - perform:21) - Registr action strarts
+2015-12-22 14:39:03,846 TRACE (RegistrAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 14:39:03,853 TRACE (RegistrAction.java - perform:27) - Obtained parmetr: name = Spider
+2015-12-22 14:39:03,855 TRACE (RegistrAction.java - perform:30) - Obtained parmetr: surname = Man
+2015-12-22 14:39:03,857 TRACE (RegistrAction.java - perform:33) - Obtained parmetr: password = spider321
+2015-12-22 14:39:03,859 TRACE (RegistrAction.java - perform:36) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 14:39:03,861 TRACE (RegistrAction.java - perform:39) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 14:39:03,864 TRACE (RegistrAction.java - perform:42) - Obtained parmetr: imageUrl = null
+2015-12-22 14:39:03,865 TRACE (RegistrAction.java - perform:46) - Forward adress: /homePage.jsp
+2015-12-22 16:14:47,975 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:14:47,983 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:14:47,990 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:14:47,992 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:14:47,993 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:14:47,995 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:14:47,996 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:14:47,998 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:14:47,999 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:14:48,004 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:14:48,006 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:14:48,008 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:15:48,593 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:15:48,605 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:15:48,616 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:15:48,618 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:15:48,621 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:15:48,624 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:15:48,626 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:15:48,628 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:15:48,630 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:15:48,635 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:15:48,637 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:15:48,640 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:18:14,187 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:18:14,198 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:18:14,206 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:18:14,208 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:18:14,211 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:18:14,213 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:18:14,215 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:18:14,217 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:18:14,218 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:18:14,222 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:18:14,224 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:18:14,226 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:18:14,273 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:18:14,281 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:18:14,283 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:18:14,285 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:18:14,288 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:18:14,290 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:18:14,292 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:18:14,294 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:18:14,295 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:18:14,297 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:18:14,298 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:18:14,300 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:18:33,070 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:18:33,086 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:18:33,097 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:18:33,100 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:18:33,103 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:18:33,106 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:18:33,109 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:18:33,112 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:18:33,114 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:18:33,118 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:18:33,120 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:18:33,125 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:18:33,182 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:18:33,184 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:18:33,189 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:18:33,192 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:18:33,194 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:18:33,197 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:18:33,200 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:18:33,203 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:18:33,205 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:18:33,207 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:18:33,209 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:18:33,212 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:20:25,214 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:20:25,241 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:20:25,251 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:20:25,255 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:20:25,257 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:20:25,259 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:20:25,264 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:20:25,266 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:20:25,267 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:20:25,269 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:20:25,270 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:20:25,272 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:20:25,307 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:20:25,309 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:20:25,315 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:20:25,317 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:20:25,318 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:20:25,320 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:20:25,323 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:20:25,324 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:20:25,326 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:20:25,334 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:20:25,336 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:20:41,214 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:20:41,222 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:20:41,232 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:20:41,234 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:20:41,236 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:20:41,238 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:20:41,241 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:20:41,244 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:20:41,245 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:20:41,248 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:20:41,249 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:20:41,251 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:20:41,285 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:20:41,286 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:20:41,289 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:20:41,292 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:20:41,295 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:20:41,297 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:20:41,299 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:20:41,302 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:20:41,303 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:20:41,306 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:20:41,309 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:22:39,873 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:22:39,887 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:22:39,900 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:22:39,910 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:22:39,913 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:22:39,915 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:22:39,921 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:22:39,925 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:22:39,926 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:22:39,928 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:22:39,931 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:22:39,996 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:22:39,998 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:22:40,001 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:22:40,004 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:22:40,007 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:22:40,009 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:22:40,012 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:22:40,014 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:22:40,017 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:22:40,028 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:22:40,031 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:22:40,036 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:22:40,063 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:22:40,066 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:22:40,073 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:22:40,076 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:22:40,079 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:22:40,082 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider123
+2015-12-22 16:22:40,089 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:22:40,095 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:22:40,099 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:22:40,102 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 16:22:40,105 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 16:22:40,107 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 16:22:51,900 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:22:51,910 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:22:51,917 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:22:51,919 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:22:51,922 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:22:51,924 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:22:51,926 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:22:51,929 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:22:51,930 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:22:51,932 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:22:51,933 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:22:51,967 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:22:51,969 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:22:51,971 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:22:51,973 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:22:51,975 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:22:51,977 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:22:51,980 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:22:51,981 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:22:51,983 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:22:51,986 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:22:51,988 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:22:51,991 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:22:52,009 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:22:52,010 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:22:52,014 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:22:52,016 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:22:52,018 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:22:52,023 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider123
+2015-12-22 16:22:52,028 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:22:52,031 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:22:52,033 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:22:52,036 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 16:22:52,039 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 16:22:52,040 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 16:48:01,871 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:48:01,882 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:48:01,890 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:48:01,892 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:48:01,894 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:48:01,897 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:48:01,899 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:48:01,902 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:48:01,904 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:48:01,905 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:48:01,907 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:48:01,947 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:48:01,949 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:48:01,951 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:48:01,953 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:48:01,956 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:48:01,958 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:48:01,962 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:48:01,965 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:48:01,966 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:48:01,969 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:48:01,971 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:48:01,973 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:48:01,991 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:48:01,994 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:48:01,997 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:48:02,005 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:48:02,007 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:48:02,008 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:48:02,011 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:48:02,013 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:48:02,015 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:48:02,018 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:48:02,020 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:48:02,022 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:48:57,090 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:48:57,102 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:48:57,111 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:48:57,113 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:48:57,116 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:48:57,119 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:48:57,120 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:48:57,123 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:48:57,124 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:48:57,126 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:48:57,127 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:48:57,163 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:48:57,166 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:48:57,169 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:48:57,172 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:48:57,174 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:48:57,177 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:48:57,180 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:48:57,182 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:48:57,184 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:48:57,187 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:48:57,189 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:48:57,191 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:48:57,208 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:48:57,209 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:48:57,212 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:48:57,215 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:48:57,217 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:48:57,218 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider123
+2015-12-22 16:48:57,221 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:48:57,223 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:48:57,225 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:48:57,227 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 16:48:57,230 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 16:48:57,231 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 16:52:12,944 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:52:12,968 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:52:12,977 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:52:12,980 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:52:12,983 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:52:12,986 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:52:12,988 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:52:12,991 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:52:12,993 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:52:13,020 ERROR (RegistrAction.java - perform:57) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 16:52:13,054 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:52:13,056 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:52:13,059 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:52:13,145 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:52:13,150 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:52:13,153 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:52:13,155 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:52:13,157 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:52:13,159 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:52:13,161 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:52:13,163 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:52:13,164 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:52:13,166 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:52:13,167 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:52:13,182 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:52:13,188 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:52:13,192 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:52:13,195 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:52:13,197 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:52:13,198 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:52:13,201 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:52:13,203 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:52:13,204 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:52:13,206 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:52:13,207 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:52:13,209 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:52:13,225 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:52:13,226 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:52:13,229 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:52:13,231 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:52:13,233 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:52:13,235 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider123
+2015-12-22 16:52:13,236 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:52:13,238 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:52:13,241 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:52:13,244 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 16:52:13,246 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 16:52:13,247 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 16:53:14,451 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:53:14,462 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:53:14,481 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:53:14,483 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:53:14,485 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:53:14,487 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:53:14,489 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:53:14,491 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:53:14,493 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:53:14,523 ERROR (RegistrAction.java - perform:57) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 16:53:14,553 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:53:14,554 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:53:14,556 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:53:14,644 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:53:14,645 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:53:14,649 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:53:14,651 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:53:14,653 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:53:14,655 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:53:14,657 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:53:14,659 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:53:14,661 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:53:14,663 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:53:14,664 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:53:14,687 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:53:14,688 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:53:14,691 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:53:14,693 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:53:14,696 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:53:14,698 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:53:14,700 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:53:14,703 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:53:14,704 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:53:14,706 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:53:14,707 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:53:14,713 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:53:14,732 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:53:14,733 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:53:14,736 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:53:14,738 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:53:14,740 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:53:14,743 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider123
+2015-12-22 16:53:14,745 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:53:14,747 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:53:14,748 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:53:14,750 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 16:53:14,752 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 16:53:14,753 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 16:55:53,193 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:55:53,220 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:55:53,231 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:55:53,234 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:55:53,236 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:55:53,240 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:55:53,243 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:55:53,246 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:55:53,248 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:55:53,252 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:55:53,254 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:55:53,282 ERROR (RegistrAction.java - perform:81) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 16:55:53,312 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:55:53,383 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:55:53,385 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:55:53,388 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:55:53,390 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:55:53,391 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:55:53,394 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:55:53,396 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:55:53,398 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:55:53,399 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:55:53,401 ERROR (RegistrAction.java - perform:57) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 16:55:53,403 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:55:53,404 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:55:53,407 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:55:53,434 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:55:53,436 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:55:53,439 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:55:53,442 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:55:53,445 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:55:53,448 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:55:53,451 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:55:53,455 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:55:53,458 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:55:53,460 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:55:53,462 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:55:53,479 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:55:53,481 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:55:53,487 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:55:53,489 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:55:53,491 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:55:53,493 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:55:53,495 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:55:53,498 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:55:53,504 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:55:53,507 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:55:53,509 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:55:53,513 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:55:53,552 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:55:53,556 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:55:53,563 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:55:53,570 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:55:53,573 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:55:53,578 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider123
+2015-12-22 16:55:53,582 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:55:53,586 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:55:53,587 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:55:53,591 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 16:55:53,593 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 16:55:53,596 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 16:59:41,926 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:59:41,948 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:59:41,957 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:59:41,961 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:59:41,964 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:59:41,967 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:59:41,970 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:59:41,972 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:59:41,973 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:59:41,977 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:59:41,978 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:59:42,008 ERROR (RegistrAction.java - perform:81) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 16:59:42,045 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:59:42,070 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:59:42,072 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:59:42,076 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:59:42,077 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:59:42,079 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:59:42,083 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:59:42,085 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:59:42,088 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:59:42,090 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:59:42,093 ERROR (RegistrAction.java - perform:57) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 16:59:42,096 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:59:42,098 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:59:42,101 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:59:42,120 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:59:42,123 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:59:42,126 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:59:42,128 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:59:42,130 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:59:42,134 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:59:42,137 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:59:42,138 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:59:42,140 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:59:42,142 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 16:59:42,143 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 16:59:42,159 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:59:42,161 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:59:42,164 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:59:42,167 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:59:42,170 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:59:42,172 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 16:59:42,174 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:59:42,177 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:59:42,178 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:59:42,180 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 16:59:42,182 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 16:59:42,185 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 16:59:42,206 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 16:59:42,208 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 16:59:42,214 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 16:59:42,217 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 16:59:42,219 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 16:59:42,221 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider123
+2015-12-22 16:59:42,224 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 16:59:42,229 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 16:59:42,231 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 16:59:42,233 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 16:59:42,236 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 16:59:42,237 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 17:05:53,967 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:05:53,993 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:05:54,008 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:05:54,011 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:05:54,014 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:05:54,018 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:05:54,021 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:05:54,025 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:05:54,026 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:05:54,032 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 17:05:54,034 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 17:05:54,067 ERROR (RegistrAction.java - perform:81) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:05:54,123 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 17:05:54,179 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:05:54,181 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:05:54,184 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:05:54,186 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:05:54,188 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:05:54,191 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:05:54,196 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:05:54,198 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:05:54,201 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:05:54,204 ERROR (RegistrAction.java - perform:57) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:05:54,206 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 17:05:54,209 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 17:05:54,212 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 17:05:54,236 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:05:54,238 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:05:54,242 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:05:54,245 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:05:54,247 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:05:54,252 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:05:54,255 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:05:54,258 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:05:54,260 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:05:54,263 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 17:05:54,265 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 17:05:54,510 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:05:54,514 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:05:54,516 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:05:54,518 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:05:54,520 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:05:54,522 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:05:54,524 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:05:54,528 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:05:54,529 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:05:54,531 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 17:05:54,532 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 17:05:54,533 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 17:05:54,561 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:05:54,563 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:05:54,567 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:05:54,568 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:05:54,573 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:05:54,575 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = wrongPass
+2015-12-22 17:05:54,579 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:05:54,582 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:05:54,584 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:05:54,585 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 17:05:54,587 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 17:05:54,588 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 17:07:44,842 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:07:44,853 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:07:44,859 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:07:44,861 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:07:44,863 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:07:44,864 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:07:44,866 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:07:44,868 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:07:44,869 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:07:44,871 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 17:07:44,872 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 17:07:44,909 ERROR (RegistrAction.java - perform:81) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:07:44,926 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 17:07:44,946 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:07:44,948 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:07:44,951 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:07:44,953 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:07:44,955 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:07:44,956 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:07:44,958 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:07:44,960 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:07:44,961 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:07:44,963 ERROR (RegistrAction.java - perform:57) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:07:44,965 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 17:07:44,967 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 17:07:44,969 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 17:07:44,984 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:07:44,988 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:07:44,991 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:07:44,992 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:07:44,994 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:07:44,997 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:07:45,001 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:07:45,003 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:07:45,004 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:07:45,006 WARN  (RegistrAction.java - perform:50) - E-mail is already in use
+2015-12-22 17:07:45,007 TRACE (RegistrAction.java - perform:52) - Forward adress: /registration.jsp
+2015-12-22 17:07:45,137 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:07:45,139 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:07:45,141 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:07:45,144 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:07:45,146 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:07:45,148 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:07:45,149 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:07:45,151 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:07:45,152 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:07:45,153 TRACE (RegistrAction.java - perform:76) - Finished setting user fields
+2015-12-22 17:07:45,154 TRACE (RegistrAction.java - perform:78) - Adding user to the storage
+2015-12-22 17:07:45,155 INFO  (RegistrAction.java - perform:85) - Registration action finished successful
+2015-12-22 17:07:45,186 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:07:45,187 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:07:45,189 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:07:45,190 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:07:45,193 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:07:45,195 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = wrongPass
+2015-12-22 17:07:45,197 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:07:45,199 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:07:45,200 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:07:45,202 WARN  (RegistrAction.java - perform:61) - Passwords are not equal
+2015-12-22 17:07:45,204 TRACE (RegistrAction.java - perform:64) - Forward adress: /registration.jsp
+2015-12-22 17:07:45,205 INFO  (RegistrAction.java - perform:65) - Registration action was interrapted
+2015-12-22 17:11:06,831 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:11:06,852 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:11:06,862 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:11:06,864 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:11:06,867 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:11:06,868 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:11:06,870 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:11:06,873 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:11:06,874 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:11:06,877 TRACE (RegistrAction.java - perform:77) - Finished setting user fields
+2015-12-22 17:11:06,879 TRACE (RegistrAction.java - perform:79) - Adding user to the storage
+2015-12-22 17:11:06,907 ERROR (RegistrAction.java - perform:82) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:11:06,944 INFO  (RegistrAction.java - perform:86) - Registration action finished successful
+2015-12-22 17:11:06,969 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:11:06,971 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:11:06,974 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:11:06,976 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:11:06,979 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:11:06,981 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:11:06,983 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:11:06,986 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:11:06,988 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:11:06,990 ERROR (RegistrAction.java - perform:58) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:11:06,991 TRACE (RegistrAction.java - perform:77) - Finished setting user fields
+2015-12-22 17:11:06,993 TRACE (RegistrAction.java - perform:79) - Adding user to the storage
+2015-12-22 17:11:06,996 INFO  (RegistrAction.java - perform:86) - Registration action finished successful
+2015-12-22 17:11:07,018 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:11:07,020 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:11:07,023 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:11:07,026 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:11:07,029 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:11:07,031 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:11:07,032 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:11:07,035 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:11:07,036 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:11:07,040 WARN  (RegistrAction.java - perform:51) - E-mail is already in use
+2015-12-22 17:11:07,042 TRACE (RegistrAction.java - perform:53) - Forward adress: /registration.jsp
+2015-12-22 17:11:07,135 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:11:07,136 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:11:07,139 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:11:07,142 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:11:07,145 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:11:07,148 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:11:07,152 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:11:07,154 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:11:07,157 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:11:07,159 TRACE (RegistrAction.java - perform:77) - Finished setting user fields
+2015-12-22 17:11:07,160 TRACE (RegistrAction.java - perform:79) - Adding user to the storage
+2015-12-22 17:11:07,163 INFO  (RegistrAction.java - perform:86) - Registration action finished successful
+2015-12-22 17:11:07,184 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:11:07,185 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:11:07,188 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:11:07,190 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:11:07,192 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:11:07,195 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = wrongPass
+2015-12-22 17:11:07,198 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:11:07,200 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:11:07,201 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:11:07,204 WARN  (RegistrAction.java - perform:62) - Passwords are not equal
+2015-12-22 17:11:07,207 TRACE (RegistrAction.java - perform:65) - Forward adress: /registration.jsp
+2015-12-22 17:11:07,209 INFO  (RegistrAction.java - perform:66) - Registration action was interrapted
+2015-12-22 17:33:51,342 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:33:51,358 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:33:51,360 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:51,372 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:33:51,374 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:33:51,375 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:33:51,376 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:33:51,398 ERROR (LoginAction.java - perform:57) - ServiceException {} ocured
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:33:51,433 WARN  (LoginAction.java - perform:60) - Some error on server occured :(
+2015-12-22 17:33:51,437 TRACE (LoginAction.java - perform:63) - Forward adress: /error.jsp
+2015-12-22 17:33:51,440 INFO  (LoginAction.java - perform:65) - LoginAction was interapted
+2015-12-22 17:33:51,557 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:33:51,560 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:33:51,563 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:51,568 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:33:51,570 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:33:51,573 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:33:51,576 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:33:51,579 TRACE (LoginAction.java - perform:54) - Obtained user: User [id=0, name=null, surname=null, email=userEmail@marwel.com, password=wrongPassword, imageUrl=null]
+2015-12-22 17:33:51,581 TRACE (LoginAction.java - perform:69) - Getting new session...
+2015-12-22 17:33:51,626 TRACE (LoginAction.java - perform:71) - Obtained session creation time: 0; ID number: null 
+2015-12-22 17:33:51,629 WARN  (LoginAction.java - perform:76) - User with such e-mail/password not founded
+2015-12-22 17:33:51,631 TRACE (LoginAction.java - perform:79) - Forward adress: /homePage.jsp
+2015-12-22 17:33:51,633 INFO  (LoginAction.java - perform:81) - LoginAction was interapted
+2015-12-22 17:33:51,664 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:33:51,665 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:33:51,668 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:51,672 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:33:51,675 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:33:51,677 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:33:51,679 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:33:51,685 TRACE (LoginAction.java - perform:54) - Obtained user: User [id=0, name=null, surname=null, email=userEmail@marwel.com, password=userPassword, imageUrl=null]
+2015-12-22 17:33:51,688 TRACE (LoginAction.java - perform:69) - Getting new session...
+2015-12-22 17:33:51,691 TRACE (LoginAction.java - perform:71) - Obtained session creation time: 0; ID number: null 
+2015-12-22 17:33:51,693 TRACE (LoginAction.java - perform:85) - Forward adress: /welcomePage.jsp
+2015-12-22 17:33:51,695 TRACE (LoginAction.java - perform:89) - User null null was logged
+2015-12-22 17:33:51,697 INFO  (LoginAction.java - perform:91) - LoginAction finished successful
+2015-12-22 17:33:51,718 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:33:51,719 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:33:51,721 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:51,725 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = null
+2015-12-22 17:33:51,727 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:33:51,729 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:33:51,731 WARN  (LoginAction.java - perform:39) - Password and/or login cannot be empty
+2015-12-22 17:33:51,734 TRACE (LoginAction.java - perform:43) - Forward adress: /homePage.jsp
+2015-12-22 17:33:51,736 INFO  (LoginAction.java - perform:45) - LoginAction was interapted
+2015-12-22 17:33:51,749 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:33:51,823 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:33:51,824 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:51,829 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:33:51,833 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:33:51,836 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:33:51,839 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:33:51,842 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:33:51,846 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:33:51,848 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:33:51,851 TRACE (RegistrAction.java - perform:86) - Finished setting user fields
+2015-12-22 17:33:51,853 TRACE (RegistrAction.java - perform:88) - Adding user to the storage
+2015-12-22 17:33:51,855 ERROR (RegistrAction.java - perform:91) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:33:51,858 WARN  (RegistrAction.java - perform:93) - Some error on server occured :(
+2015-12-22 17:33:51,861 TRACE (RegistrAction.java - perform:96) - Forward adress: /error.jsp
+2015-12-22 17:33:51,863 INFO  (RegistrAction.java - perform:98) - LoginAction was interapted
+2015-12-22 17:33:51,891 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:33:51,898 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:51,903 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:33:51,906 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:33:51,910 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:33:51,921 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:33:51,934 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:33:51,938 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:33:51,940 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:33:51,943 ERROR (RegistrAction.java - perform:58) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:33:51,944 WARN  (RegistrAction.java - perform:61) - Some error on server occured :(
+2015-12-22 17:33:51,947 TRACE (RegistrAction.java - perform:64) - Forward adress: /error.jsp
+2015-12-22 17:33:51,950 INFO  (RegistrAction.java - perform:66) - LoginAction was interapted
+2015-12-22 17:33:51,981 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:33:51,989 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:51,994 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:33:51,996 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:33:52,001 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:33:52,005 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:33:52,026 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:33:52,028 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:33:52,033 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:33:52,038 WARN  (RegistrAction.java - perform:51) - E-mail is already in use
+2015-12-22 17:33:52,039 TRACE (RegistrAction.java - perform:53) - Forward adress: /registration.jsp
+2015-12-22 17:33:52,074 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:33:52,076 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:52,080 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:33:52,083 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:33:52,088 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:33:52,100 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:33:52,104 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:33:52,107 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:33:52,111 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:33:52,119 TRACE (RegistrAction.java - perform:86) - Finished setting user fields
+2015-12-22 17:33:52,122 TRACE (RegistrAction.java - perform:88) - Adding user to the storage
+2015-12-22 17:33:52,126 INFO  (RegistrAction.java - perform:103) - Registration action finished successful
+2015-12-22 17:33:52,164 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:33:52,167 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:33:52,170 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:33:52,172 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:33:52,175 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:33:52,177 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = wrongPass
+2015-12-22 17:33:52,182 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:33:52,185 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:33:52,187 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:33:52,189 WARN  (RegistrAction.java - perform:71) - Passwords are not equal
+2015-12-22 17:33:52,192 TRACE (RegistrAction.java - perform:74) - Forward adress: /registration.jsp
+2015-12-22 17:33:52,193 INFO  (RegistrAction.java - perform:75) - Registration action was interrapted
+2015-12-22 17:33:52,237 TRACE (Controller.java - doPost:29) - Controller#doPost
+2015-12-22 17:33:52,238 TRACE (Controller.java - process:35) - entry
+2015-12-22 17:33:52,240 INFO  (Controller.java - process:36) - Controller starts
+2015-12-22 17:33:52,242 TRACE (Controller.java - process:37) - Setting utf-8 as character encoding
+2015-12-22 17:33:52,246 TRACE (Controller.java - process:41) - Action name: none
+2015-12-22 17:33:52,257 TRACE (Controller.java - process:44) - Obtained action: NoneAction
+2015-12-22 17:33:52,259 TRACE (Controller.java - process:46) - Performing an action..
+2015-12-22 17:33:52,260 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:33:52,262 TRACE (Controller.java - process:48) - Forward adress: /error.jsp
+2015-12-22 17:33:52,265 INFO  (Controller.java - process:55) - Controller finished
+2015-12-22 17:33:52,266 TRACE (Controller.java - process:56) - exit
+2015-12-22 17:33:52,284 TRACE (Controller.java - doGet:23) - Controller#doGet
+2015-12-22 17:33:52,286 TRACE (Controller.java - process:35) - entry
+2015-12-22 17:33:52,288 INFO  (Controller.java - process:36) - Controller starts
+2015-12-22 17:33:52,289 TRACE (Controller.java - process:37) - Setting utf-8 as character encoding
+2015-12-22 17:33:52,292 TRACE (Controller.java - process:41) - Action name: none
+2015-12-22 17:33:52,293 TRACE (Controller.java - process:44) - Obtained action: NoneAction
+2015-12-22 17:33:52,296 TRACE (Controller.java - process:46) - Performing an action..
+2015-12-22 17:33:52,297 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:33:52,299 TRACE (Controller.java - process:48) - Forward adress: /error.jsp
+2015-12-22 17:33:52,301 INFO  (Controller.java - process:55) - Controller finished
+2015-12-22 17:33:52,303 TRACE (Controller.java - process:56) - exit
+2015-12-22 17:34:05,800 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:34:05,834 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:34:05,835 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:05,845 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:34:05,847 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:34:05,848 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:34:05,850 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:34:05,884 ERROR (LoginAction.java - perform:57) - ServiceException {} ocured
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:34:05,915 WARN  (LoginAction.java - perform:60) - Some error on server occured :(
+2015-12-22 17:34:05,919 TRACE (LoginAction.java - perform:63) - Forward adress: /error.jsp
+2015-12-22 17:34:05,920 INFO  (LoginAction.java - perform:65) - LoginAction was interapted
+2015-12-22 17:34:06,014 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:34:06,016 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:34:06,019 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:06,022 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:34:06,024 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:34:06,026 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:34:06,027 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:34:06,029 TRACE (LoginAction.java - perform:54) - Obtained user: User [id=0, name=null, surname=null, email=userEmail@marwel.com, password=wrongPassword, imageUrl=null]
+2015-12-22 17:34:06,030 TRACE (LoginAction.java - perform:69) - Getting new session...
+2015-12-22 17:34:06,054 TRACE (LoginAction.java - perform:71) - Obtained session creation time: 0; ID number: null 
+2015-12-22 17:34:06,056 WARN  (LoginAction.java - perform:76) - User with such e-mail/password not founded
+2015-12-22 17:34:06,058 TRACE (LoginAction.java - perform:79) - Forward adress: /homePage.jsp
+2015-12-22 17:34:06,067 INFO  (LoginAction.java - perform:81) - LoginAction was interapted
+2015-12-22 17:34:06,084 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:34:06,086 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:34:06,087 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:06,091 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:34:06,093 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:34:06,094 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:34:06,095 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:34:06,097 TRACE (LoginAction.java - perform:54) - Obtained user: User [id=0, name=null, surname=null, email=userEmail@marwel.com, password=userPassword, imageUrl=null]
+2015-12-22 17:34:06,099 TRACE (LoginAction.java - perform:69) - Getting new session...
+2015-12-22 17:34:06,102 TRACE (LoginAction.java - perform:71) - Obtained session creation time: 0; ID number: null 
+2015-12-22 17:34:06,104 TRACE (LoginAction.java - perform:85) - Forward adress: /welcomePage.jsp
+2015-12-22 17:34:06,106 TRACE (LoginAction.java - perform:89) - User null null was logged
+2015-12-22 17:34:06,107 INFO  (LoginAction.java - perform:91) - LoginAction finished successful
+2015-12-22 17:34:06,125 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:34:06,126 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:34:06,128 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:21,090 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = null
+2015-12-22 17:34:21,098 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:34:21,102 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:34:21,138 WARN  (LoginAction.java - perform:39) - Password and/or login cannot be empty
+2015-12-22 17:34:21,169 TRACE (LoginAction.java - perform:43) - Forward adress: /homePage.jsp
+2015-12-22 17:34:21,171 INFO  (LoginAction.java - perform:45) - LoginAction was interapted
+2015-12-22 17:34:21,200 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:34:21,470 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:34:21,474 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:21,479 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:34:21,482 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:34:21,485 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:34:21,491 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:34:21,523 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:34:21,541 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:34:21,554 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:34:21,572 TRACE (RegistrAction.java - perform:86) - Finished setting user fields
+2015-12-22 17:34:21,579 TRACE (RegistrAction.java - perform:88) - Adding user to the storage
+2015-12-22 17:34:21,583 ERROR (RegistrAction.java - perform:91) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:34:21,585 WARN  (RegistrAction.java - perform:93) - Some error on server occured :(
+2015-12-22 17:34:21,588 TRACE (RegistrAction.java - perform:96) - Forward adress: /error.jsp
+2015-12-22 17:34:21,592 INFO  (RegistrAction.java - perform:98) - LoginAction was interapted
+2015-12-22 17:34:21,697 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:34:21,733 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:21,741 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:34:21,744 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:34:21,750 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:34:21,762 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:34:21,767 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:34:21,769 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:34:21,774 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:34:21,780 ERROR (RegistrAction.java - perform:58) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:34:21,784 WARN  (RegistrAction.java - perform:61) - Some error on server occured :(
+2015-12-22 17:34:21,788 TRACE (RegistrAction.java - perform:64) - Forward adress: /error.jsp
+2015-12-22 17:34:21,792 INFO  (RegistrAction.java - perform:66) - LoginAction was interapted
+2015-12-22 17:34:21,830 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:34:21,832 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:21,835 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:34:21,839 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:34:21,842 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:34:21,845 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:34:21,848 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:34:21,850 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:34:21,852 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:34:21,857 WARN  (RegistrAction.java - perform:51) - E-mail is already in use
+2015-12-22 17:34:21,860 TRACE (RegistrAction.java - perform:53) - Forward adress: /registration.jsp
+2015-12-22 17:34:21,892 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:34:21,895 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:21,899 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:34:21,901 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:34:21,903 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:34:21,906 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:34:21,909 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:34:21,912 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:34:21,913 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:34:21,915 TRACE (RegistrAction.java - perform:86) - Finished setting user fields
+2015-12-22 17:34:21,918 TRACE (RegistrAction.java - perform:88) - Adding user to the storage
+2015-12-22 17:34:21,921 INFO  (RegistrAction.java - perform:103) - Registration action finished successful
+2015-12-22 17:34:21,948 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:34:21,949 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:34:21,953 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:34:21,956 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:34:21,958 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:34:21,961 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = wrongPass
+2015-12-22 17:34:21,964 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:34:21,966 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:34:21,968 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:34:21,970 WARN  (RegistrAction.java - perform:71) - Passwords are not equal
+2015-12-22 17:34:21,974 TRACE (RegistrAction.java - perform:74) - Forward adress: /registration.jsp
+2015-12-22 17:34:21,976 INFO  (RegistrAction.java - perform:75) - Registration action was interrapted
+2015-12-22 17:34:22,067 TRACE (Controller.java - doPost:29) - Controller#doPost
+2015-12-22 17:34:22,069 TRACE (Controller.java - process:35) - entry
+2015-12-22 17:34:22,071 INFO  (Controller.java - process:36) - Controller starts
+2015-12-22 17:34:22,073 TRACE (Controller.java - process:37) - Setting utf-8 as character encoding
+2015-12-22 17:34:22,076 TRACE (Controller.java - process:41) - Action name: none
+2015-12-22 17:34:22,106 TRACE (Controller.java - process:44) - Obtained action: NoneAction
+2015-12-22 17:34:22,108 TRACE (Controller.java - process:46) - Performing an action..
+2015-12-22 17:34:22,110 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:34:22,111 TRACE (Controller.java - process:48) - Forward adress: /error.jsp
+2015-12-22 17:34:22,114 INFO  (Controller.java - process:55) - Controller finished
+2015-12-22 17:34:22,116 TRACE (Controller.java - process:56) - exit
+2015-12-22 17:34:22,134 TRACE (Controller.java - doGet:23) - Controller#doGet
+2015-12-22 17:34:22,136 TRACE (Controller.java - process:35) - entry
+2015-12-22 17:34:22,137 INFO  (Controller.java - process:36) - Controller starts
+2015-12-22 17:34:22,139 TRACE (Controller.java - process:37) - Setting utf-8 as character encoding
+2015-12-22 17:34:22,142 TRACE (Controller.java - process:41) - Action name: none
+2015-12-22 17:34:22,144 TRACE (Controller.java - process:44) - Obtained action: NoneAction
+2015-12-22 17:34:22,145 TRACE (Controller.java - process:46) - Performing an action..
+2015-12-22 17:34:22,146 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:34:22,148 TRACE (Controller.java - process:48) - Forward adress: /error.jsp
+2015-12-22 17:34:22,151 INFO  (Controller.java - process:55) - Controller finished
+2015-12-22 17:34:22,153 TRACE (Controller.java - process:56) - exit
+2015-12-22 17:35:21,148 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:35:21,165 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:35:21,169 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,182 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:35:21,186 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:35:21,188 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:35:21,190 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:35:21,221 ERROR (LoginAction.java - perform:57) - ServiceException {} ocured
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:35:21,268 WARN  (LoginAction.java - perform:60) - Some error on server occured :(
+2015-12-22 17:35:21,274 TRACE (LoginAction.java - perform:63) - Forward adress: /error.jsp
+2015-12-22 17:35:21,276 INFO  (LoginAction.java - perform:65) - LoginAction was interapted
+2015-12-22 17:35:21,389 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:35:21,394 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:35:21,396 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,399 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:35:21,401 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:35:21,403 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:35:21,405 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:35:21,408 TRACE (LoginAction.java - perform:54) - Obtained user: User [id=0, name=null, surname=null, email=userEmail@marwel.com, password=wrongPassword, imageUrl=null]
+2015-12-22 17:35:21,409 TRACE (LoginAction.java - perform:69) - Getting new session...
+2015-12-22 17:35:21,439 TRACE (LoginAction.java - perform:71) - Obtained session creation time: 0; ID number: null 
+2015-12-22 17:35:21,443 WARN  (LoginAction.java - perform:76) - User with such e-mail/password not founded
+2015-12-22 17:35:21,445 TRACE (LoginAction.java - perform:79) - Forward adress: /homePage.jsp
+2015-12-22 17:35:21,447 INFO  (LoginAction.java - perform:81) - LoginAction was interapted
+2015-12-22 17:35:21,467 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:35:21,470 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:35:21,472 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,475 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = userEmail@marwel.com
+2015-12-22 17:35:21,478 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:35:21,480 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:35:21,482 TRACE (LoginAction.java - perform:51) - Creating user instance from storage by email: userEmail@marwel.com
+2015-12-22 17:35:21,484 TRACE (LoginAction.java - perform:54) - Obtained user: User [id=0, name=null, surname=null, email=userEmail@marwel.com, password=userPassword, imageUrl=null]
+2015-12-22 17:35:21,486 TRACE (LoginAction.java - perform:69) - Getting new session...
+2015-12-22 17:35:21,489 TRACE (LoginAction.java - perform:71) - Obtained session creation time: 0; ID number: null 
+2015-12-22 17:35:21,491 TRACE (LoginAction.java - perform:85) - Forward adress: /welcomePage.jsp
+2015-12-22 17:35:21,494 TRACE (LoginAction.java - perform:89) - User null null was logged
+2015-12-22 17:35:21,497 INFO  (LoginAction.java - perform:91) - LoginAction finished successful
+2015-12-22 17:35:21,527 TRACE (LoginAction.java - perform:20) - entry
+2015-12-22 17:35:21,530 INFO  (LoginAction.java - perform:21) - LoginAction starts
+2015-12-22 17:35:21,532 TRACE (LoginAction.java - perform:23) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,535 TRACE (LoginAction.java - perform:27) - Obtained parmetr: E-mail = null
+2015-12-22 17:35:21,538 TRACE (LoginAction.java - perform:30) - Obtained parmetr: password = userPassword
+2015-12-22 17:35:21,541 TRACE (LoginAction.java - perform:36) - Checking input parametrs for validation
+2015-12-22 17:35:21,542 WARN  (LoginAction.java - perform:39) - Password and/or login cannot be empty
+2015-12-22 17:35:21,544 TRACE (LoginAction.java - perform:43) - Forward adress: /homePage.jsp
+2015-12-22 17:35:21,546 INFO  (LoginAction.java - perform:45) - LoginAction was interapted
+2015-12-22 17:35:21,557 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:35:21,628 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:35:21,632 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,638 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:35:21,640 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:35:21,643 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:35:21,647 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:35:21,649 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:35:21,652 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:35:21,654 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:35:21,657 TRACE (RegistrAction.java - perform:86) - Finished setting user fields
+2015-12-22 17:35:21,659 TRACE (RegistrAction.java - perform:88) - Adding user to the storage
+2015-12-22 17:35:21,662 ERROR (RegistrAction.java - perform:91) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:35:21,664 WARN  (RegistrAction.java - perform:93) - Some error on server occured :(
+2015-12-22 17:35:21,667 TRACE (RegistrAction.java - perform:96) - Forward adress: /error.jsp
+2015-12-22 17:35:21,669 INFO  (RegistrAction.java - perform:98) - LoginAction was interapted
+2015-12-22 17:35:21,689 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:35:21,691 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,695 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:35:21,698 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:35:21,701 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:35:21,703 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:35:21,706 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:35:21,708 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:35:21,711 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:35:21,715 ERROR (RegistrAction.java - perform:58) - ServiceException - {} ocurred
+ua.nure.lubchenko.webapp.service.exception.ServiceException
+2015-12-22 17:35:21,718 WARN  (RegistrAction.java - perform:61) - Some error on server occured :(
+2015-12-22 17:35:21,723 TRACE (RegistrAction.java - perform:64) - Forward adress: /error.jsp
+2015-12-22 17:35:21,725 INFO  (RegistrAction.java - perform:66) - LoginAction was interapted
+2015-12-22 17:35:21,752 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:35:21,754 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,757 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:35:21,760 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:35:21,762 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:35:21,764 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:35:21,767 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:35:21,769 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:35:21,771 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:35:21,774 WARN  (RegistrAction.java - perform:51) - E-mail is already in use
+2015-12-22 17:35:21,776 TRACE (RegistrAction.java - perform:53) - Forward adress: /registration.jsp
+2015-12-22 17:35:21,792 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:35:21,796 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,799 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:35:21,802 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:35:21,804 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:35:21,807 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = spider321
+2015-12-22 17:35:21,810 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:35:21,814 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:35:21,816 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:35:21,818 TRACE (RegistrAction.java - perform:86) - Finished setting user fields
+2015-12-22 17:35:21,820 TRACE (RegistrAction.java - perform:88) - Adding user to the storage
+2015-12-22 17:35:21,822 INFO  (RegistrAction.java - perform:103) - Registration action finished successful
+2015-12-22 17:35:21,842 TRACE (RegistrAction.java - perform:20) - Registr action strarts
+2015-12-22 17:35:21,845 TRACE (RegistrAction.java - perform:22) - Getting userServise from servlet context by attribute
+2015-12-22 17:35:21,847 TRACE (RegistrAction.java - perform:26) - Obtained parmetr: name = Spider
+2015-12-22 17:35:21,848 TRACE (RegistrAction.java - perform:29) - Obtained parmetr: surname = Man
+2015-12-22 17:35:21,850 TRACE (RegistrAction.java - perform:32) - Obtained parmetr: password = spider321
+2015-12-22 17:35:21,852 TRACE (RegistrAction.java - perform:35) - Obtained parmetr: confirmPassword = wrongPass
+2015-12-22 17:35:21,854 TRACE (RegistrAction.java - perform:38) - Obtained parmetr: email = spiderman@gmail.com
+2015-12-22 17:35:21,856 TRACE (RegistrAction.java - perform:41) - Obtained parmetr: imageUrl = null
+2015-12-22 17:35:21,858 TRACE (RegistrAction.java - perform:45) - Forward adress: /homePage.jsp
+2015-12-22 17:35:21,860 WARN  (RegistrAction.java - perform:71) - Passwords are not equal
+2015-12-22 17:35:21,862 TRACE (RegistrAction.java - perform:74) - Forward adress: /registration.jsp
+2015-12-22 17:35:21,863 INFO  (RegistrAction.java - perform:75) - Registration action was interrapted
+2015-12-22 17:35:21,902 TRACE (Controller.java - doPost:29) - Controller#doPost
+2015-12-22 17:35:21,904 TRACE (Controller.java - process:35) - entry
+2015-12-22 17:35:21,905 INFO  (Controller.java - process:36) - Controller starts
+2015-12-22 17:35:21,906 TRACE (Controller.java - process:37) - Setting utf-8 as character encoding
+2015-12-22 17:35:21,909 TRACE (Controller.java - process:41) - Action name: none
+2015-12-22 17:35:21,919 TRACE (Controller.java - process:44) - Obtained action: NoneAction
+2015-12-22 17:35:21,920 TRACE (Controller.java - process:46) - Performing an action..
+2015-12-22 17:35:21,922 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:35:21,924 TRACE (Controller.java - process:48) - Forward adress: /error.jsp
+2015-12-22 17:35:21,928 INFO  (Controller.java - process:55) - Controller finished
+2015-12-22 17:35:21,929 TRACE (Controller.java - process:56) - exit
+2015-12-22 17:35:21,941 TRACE (Controller.java - doGet:23) - Controller#doGet
+2015-12-22 17:35:21,942 TRACE (Controller.java - process:35) - entry
+2015-12-22 17:35:21,944 INFO  (Controller.java - process:36) - Controller starts
+2015-12-22 17:35:21,945 TRACE (Controller.java - process:37) - Setting utf-8 as character encoding
+2015-12-22 17:35:21,947 TRACE (Controller.java - process:41) - Action name: none
+2015-12-22 17:35:21,949 TRACE (Controller.java - process:44) - Obtained action: NoneAction
+2015-12-22 17:35:21,950 TRACE (Controller.java - process:46) - Performing an action..
+2015-12-22 17:35:21,951 INFO  (NoneAction.java - perform:16) - NoneAction
+2015-12-22 17:35:21,952 TRACE (Controller.java - process:48) - Forward adress: /error.jsp
+2015-12-22 17:35:21,954 INFO  (Controller.java - process:55) - Controller finished
+2015-12-22 17:35:21,955 TRACE (Controller.java - process:56) - exit

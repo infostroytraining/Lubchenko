@@ -2,8 +2,8 @@
 <Configuration>
 
 	<Appenders>
-		<File name="file" fileName="/Task2/src/dao-log.log" append="true">
-			<PatternLayout pattern="%t %-5p %c{2} - %m%n" />
+		<File name="file" fileName="dao-log.txt">
+			<PatternLayout pattern="%d %-5p (%F - %M:%L) - %m%n" />
 		</File>
 		<Console name="console" target="SYSTEM_OUT">
 			<PatternLayout pattern="%d %-5p (%F - %M:%L) - %m%n" />
@@ -12,9 +12,10 @@
 	
 	<Loggers>
 		<Logger name="org.apache.log4j.xml" level="all">
-			<AppenderRef ref="file" />
 		</Logger>
+		
 		<Root level="all">
+			<AppenderRef ref="file" />
 			<AppenderRef ref="console" />
 		</Root>
 	</Loggers>
