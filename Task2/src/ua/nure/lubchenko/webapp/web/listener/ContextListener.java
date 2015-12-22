@@ -21,7 +21,7 @@ public class ContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
-		logger.info("Context listener initializatin ...");
+		logger.info("Context listener initialization ...");
 
 		ServletContext context = sce.getServletContext();
 

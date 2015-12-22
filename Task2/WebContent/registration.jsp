@@ -22,8 +22,7 @@
 		<input type="password" name="confirmPassword" placeholder="Confirm password" /><br><br>
 		
 		<label for="avatar">You can add a photo to your account :)  (fake file loader)</label><br>
-		<input name="description" type="text"/><br>
-		<input name="avatar" type="file"/><br><br>
+		<input type="file" name="imageUrl" /><br><br>
 		
 		<label for="captchaCodeTextBox">Confirm you are a human</label><br>
 		<% 

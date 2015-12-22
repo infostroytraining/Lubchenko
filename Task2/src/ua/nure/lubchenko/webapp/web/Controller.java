@@ -49,9 +49,9 @@ public class Controller extends HttpServlet {
 
 		if (forward != null) {
 			// response.sendRedirect(request.getContextPath() + forward);
-			getServletContext().getRequestDispatcher(forward).forward(request, response);
+
+			request.getRequestDispatcher(forward).forward(request, response);
 		}
-		
 		log.info("Controller finished");
 		log.exit();
 	}

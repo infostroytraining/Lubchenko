@@ -52,9 +52,18 @@ public class LoginAction extends Action {
 			
 			user = userService.getByEmail(email);
 			log.trace("Obtained user: "+user);
+			
 		} catch (ServiceException e) {
 			log.error("ServiceException {} ocured",e);
-			e.printStackTrace();
+			
+			message = "Some error on server occured :(";
+			log.warn(message);
+			request.setAttribute("message", message);
+			forward = e.getForward(); 
+			log.trace("Forward adress: " + forward);
+
+			log.info("LoginAction was interapted");
+			return forward;			
 		}
 		
 		log.trace("Getting new session...");

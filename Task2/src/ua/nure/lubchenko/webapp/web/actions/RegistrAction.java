@@ -47,6 +47,7 @@ public class RegistrAction extends Action {
 		try {
 			if (userService.emailAlreadyInUse(email)) {
 				message = "E-mail is already in use";
+				request.setAttribute("message", message);
 				log.warn(message);
 				forward = Path.REGISTRATION_PAGE;
 				log.trace("Forward adress: " + forward);
@@ -55,6 +56,15 @@ public class RegistrAction extends Action {
 			}
 		} catch (ServiceException e) {
 			log.error("ServiceException - {} ocurred", e);
+			
+			message = "Some error on server occured :(";
+			log.warn(message);
+			request.setAttribute("message", message);
+			forward = e.getForward(); 
+			log.trace("Forward adress: " + forward);
+
+			log.info("LoginAction was interapted");
+			return forward;			
 		}
 		if (!password.equals(confirmPassword)) {
 			message = "Passwords are not equal";
@@ -79,9 +89,17 @@ public class RegistrAction extends Action {
 			userService.add(user);
 		} catch (ServiceException e) {
 			log.error("ServiceException - {} ocurred", e);
+			message = "Some error on server occured :(";
+			log.warn(message);
+			request.setAttribute("message", message);
+			forward = e.getForward(); 
+			log.trace("Forward adress: " + forward);
+
+			log.info("LoginAction was interapted");
+			return forward;			
 		}
 		message = "Registration successful";
-
+		request.setAttribute("message", message);
 		log.info("Registration action finished successful");
 		return forward;
 	}
